@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Contact | Hammer Sports Officials</title>
+  <meta
+    name="description"
+    content="Contact Hammer Sports Officials for officiating assignments, hiring officials, Arbiter questions, payment questions, uniforms, equipment, rulebooks, and general inquiries."
+  />
+
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+
+<body data-page="contact">
+  <div id="site-header"></div>
+
+  <main class="inner-page contact-page">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Contact</p>
+
+        <h1>Contact Hammer Sports Officials</h1>
+
+        <p>
+          Have a question about assignments, hiring officials, ArbiterSports,
+          payments, uniforms, rulebooks, or general Hammer Sports business?
+          Choose a topic below and we will help route your message.
+        </p>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <div class="hammer-contact-layout">
+          <div class="hammer-contact-main">
+            <div class="section-heading">
+              <p class="eyebrow">Get in Touch</p>
+              <h2>Send Hammer Sports a Message</h2>
+              <p>
+                To reduce exposed email links across the website and help protect
+                the organization from spam or impersonation attempts, Hammer Sports
+                routes public contact through this central contact page.
+              </p>
+            </div>
+
+            <div class="hammer-contact-form-card">
+              <label for="contactCategory" class="hammer-contact-label">
+                What is your message about?
+              </label>
+
+              <select id="contactCategory" class="hammer-contact-select">
+                <option value="general">General Question</option>
+                <option value="become-official">Becoming an Official</option>
+                <option value="assignments">Assignments / Open Games</option>
+                <option value="arbiter">ArbiterSports Help</option>
+                <option value="payment">Payment Process</option>
+                <option value="hire-officials">Hire Officials</option>
+                <option value="basketball">Basketball</option>
+                <option value="volleyball">Volleyball</option>
+                <option value="baseball-softball">Baseball / Softball</option>
+                <option value="soccer">Soccer</option>
+                <option value="football-flag">Football / Flag Football</option>
+                <option value="rules">Rules / Rulebooks</option>
+                <option value="uniform-equipment">Uniforms / Equipment</option>
+                <option value="video-catalog">Video Catalog / Training Resources</option>
+                <option value="website">Website Help</option>
+              </select>
+
+              <div class="hammer-contact-preview-card">
+                <p class="hammer-contact-preview-label">Your email subject will be:</p>
+                <p id="contactSubjectPreview" class="hammer-contact-subject-preview">
+                  Hammer Sports Contact: General Question
+                </p>
+              </div>
+
+              <a
+                id="contactEmailButton"
+                class="btn btn-primary hammer-contact-email-button"
+                href="mailto:hammersportsofficials@gmail.com?subject=Hammer%20Sports%20Contact%3A%20General%20Question"
+              >
+                Continue to Email Hammer Sports
+              </a>
+
+              <p class="hammer-contact-helper-text">
+                Your email app will open with a pre-filled subject line. Please
+                include your name, sport, school or league if applicable, and a
+                brief description of how Hammer Sports can help.
+              </p>
+            </div>
+          </div>
+
+          <aside class="hammer-contact-sidebar">
+            <div class="hammer-contact-panel">
+              <p class="eyebrow">Hammer Sports Officials</p>
+              <h3>Contact Notes</h3>
+
+              <p>
+                Email is the best way to reach Hammer Sports for general questions,
+                officiating opportunities, assignment questions, payment questions,
+                and website-related items.
+              </p>
+
+              <p>
+                Please allow time for the appropriate member of the Hammer Sports
+                assigning team to review and respond.
+              </p>
+
+              <p>
+                <strong>Serving:</strong><br />
+                Youth, amateur, and school-based sports throughout the Twin Cities
+                metro and Greater Minnesota.
+              </p>
+            </div>
+
+            <div class="hammer-contact-panel hammer-contact-security-panel">
+              <p class="eyebrow">Security Reminder</p>
+              <h3>Watch for Suspicious Emails</h3>
+
+              <p>
+                Hammer Sports will not ask officials, schools, or organizations by
+                email to purchase gift cards or send unusual payments.
+              </p>
+
+              <p>
+                If you receive a suspicious message claiming to be from Hammer
+                Sports leadership, do not reply, click links, or purchase anything.
+                Use this contact page to verify the message.
+              </p>
+            </div>
+
+            
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="../assets/js/main.js"></script>
+
+  <script>
+    const HAMMER_EMAIL = "hammersportsofficials@gmail.com";
+
+    const contactCategories = {
+      general: "General Question",
+      "become-official": "Becoming an Official",
+      assignments: "Assignments / Open Games",
+      arbiter: "ArbiterSports Help",
+      payment: "Payment Process",
+      "hire-officials": "Hire Officials",
+      basketball: "Basketball",
+      volleyball: "Volleyball",
+      "baseball-softball": "Baseball / Softball",
+      soccer: "Soccer",
+      "football-flag": "Football / Flag Football",
+      rules: "Rules / Rulebooks",
+      "uniform-equipment": "Uniforms / Equipment",
+      "video-catalog": "Video Catalog / Training Resources",
+      website: "Website Help"
+    };
+
+    function getCategoryFromUrl() {
+      const params = new URLSearchParams(window.location.search);
+      return params.get("category") || "general";
+    }
+
+    function updateContactLink() {
+      const select = document.getElementById("contactCategory");
+      const button = document.getElementById("contactEmailButton");
+      const subjectPreview = document.getElementById("contactSubjectPreview");
+
+      if (!select || !button) return;
+
+      const selectedValue = select.value;
+      const selectedLabel =
+        contactCategories[selectedValue] || contactCategories.general;
+
+      const subjectText = `Hammer Sports Contact: ${selectedLabel}`;
+      const subject = encodeURIComponent(subjectText);
+
+      button.href = `mailto:${HAMMER_EMAIL}?subject=${subject}`;
+
+      if (subjectPreview) {
+        subjectPreview.textContent = subjectText;
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const select = document.getElementById("contactCategory");
+
+      if (!select) return;
+
+      const urlCategory = getCategoryFromUrl();
+
+      if (contactCategories[urlCategory]) {
+        select.value = urlCategory;
+      }
+
+      updateContactLink();
+
+      select.addEventListener("change", updateContactLink);
+    });
+  </script>
+</body>
+</html>

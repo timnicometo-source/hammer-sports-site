@@ -1,0 +1,123 @@
+[
+  {
+    "id": "0b86b76f-b8cd-4b65-966b-f92f6c41c2f2",
+    "title": "Arbiter Blocks",
+    "description": "Learn how to properly update your Arbiter Blocks to avoid being assigned a game when you are not available.",
+    "publishedDate": "2025-12-24",
+    "category": ["Arbiter", "Officials"],
+    "series": ["Demystifying"],
+    "thumbnail": "/assets/images/video-catalog/arbiter-blocks.png",
+    "sourceType": "mp4",
+    "video": "https://resources.sandpiper-productions.com/videos/arbiter/Arbiter-Blocks.mp4"
+  },
+  {
+    "id": "88c26e61-f3f5-4299-95bb-70e501ed1371",
+    "title": "Arbiter Profile Pic",
+    "description": "Learn how to create the perfect profile picture for your Arbiter account.",
+    "publishedDate": "2025-12-24",
+    "category": ["Arbiter", "Officials"],
+    "series": ["Demystifying"],
+    "thumbnail": "/assets/images/video-catalog/arbiter-profile-pic.png",
+    "sourceType": "mp4",
+    "video": "https://resources.sandpiper-productions.com/videos/arbiter/Create-Profile-Pic.mp4"
+  },
+  {
+    "id": "c5f042df-8ce2-4697-a5d6-8dc45ef8d088",
+    "title": "Arbiter Profile Settings and Alerts",
+    "description": "Learn how to successfully set up your Arbiter profile and receive alerts for new games and changes to games.",
+    "publishedDate": "2025-12-24",
+    "category": ["Arbiter", "Officials"],
+    "series": ["Demystifying"],
+    "thumbnail": "/assets/images/video-catalog/arbiter-profile-settings-and-alerts.png",
+    "sourceType": "mp4",
+    "video": "https://resources.sandpiper-productions.com/videos/arbiter/Settings-Alerts.mp4"
+  },
+  {
+    "id": "e3040750-3b64-461b-a0a3-51892927a629",
+    "title": "Accepting Games in Arbiter",
+    "description": "Learn how to properly accept game assignments in Arbiter.",
+    "publishedDate": "2025-12-24",
+    "category": ["Arbiter", "Officials"],
+    "series": ["Demystifying"],
+    "thumbnail": "/assets/images/video-catalog/accepting-games-in-arbiter.png",
+    "sourceType": "mp4",
+    "video": "https://resources.sandpiper-productions.com/videos/arbiter/Accept-Game-Assignments.mp4"
+  },
+  {
+    "id": "d7caa637-428f-45a4-adfe-22d45c893c78",
+    "title": "Game Assignment Information",
+    "description": "How to find detailed information about a game assignment in Arbiter. We'll also discuss best practices for confirming game assignments with the school and your partners.",
+    "publishedDate": "2025-10-26",
+    "category": ["Officials", "Arbiter"],
+    "series": ["Demystifying"],
+    "thumbnail": "/assets/images/video-catalog/game-assignment-information.png",
+    "sourceType": "mp4",
+    "video": "https://resources.sandpiper-productions.com/videos/arbiter/Game-Assignement-Information.mp4"
+  },
+  {
+    "id": "0e741c56-8bee-4bcb-9faf-278e237739e4",
+    "title": "Introduction to Arbiter",
+    "description": "Introduction to the Arbiter Sports platform.",
+    "publishedDate": "2025-10-05",
+    "category": ["Officials", "Arbiter"],
+    "series": ["Demystifying"],
+    "thumbnail": "/assets/images/video-catalog/introduction-to-arbiter.png",
+    "sourceType": "mp4",
+    "video": "https://resources.sandpiper-productions.com/videos/arbiter/Intro-Series.mp4"
+  },
+  {
+    "id": "7abeda30-0f3e-4f2e-8c3c-a831d76e28ff",
+    "title": "Accept Game Assignments",
+    "description": "How to properly accept new game assignments from Arbiter Sports.",
+    "publishedDate": "2025-09-26",
+    "category": ["Officials", "Arbiter"],
+    "series": ["Demystifying"],
+    "thumbnail": "/assets/images/video-catalog/accepting-games-in-arbiter.png",
+    "sourceType": "mp4",
+    "video": "https://resources.sandpiper-productions.com/videos/arbiter/Accept-Game-Assignments.mp4"
+  },
+  {
+    "id": "2a8a6a55-3fd9-4e6b-8c1f-b32e37e8f75f",
+    "title": "Accept an Invitation for an Existing Account",
+    "description": "How to accept an invitation from Arbiter Sports to join Hammer Sports Officials when you have an existing Arbiter account.",
+    "publishedDate": "2025-09-22",
+    "category": ["Officials", "Arbiter"],
+    "series": ["Demystifying"],
+    "thumbnail": "/assets/images/video-catalog/accept-an-invitation-for-an-existing-account.png",
+    "sourceType": "mp4",
+    "video": "https://resources.sandpiper-productions.com/videos/arbiter/Invitation-Existing-Account.mp4"
+  },
+  {
+    "id": "88e611ed-afaa-42aa-afa1-996c8d390a2c",
+    "title": "Complete Your Profile",
+    "description": "How to complete the required information in your Arbiter profile.",
+    "publishedDate": "2025-09-22",
+    "category": ["Officials", "Arbiter"],
+    "series": ["Demystifying"],
+    "thumbnail": "/assets/images/video-catalog/complete-your-profile.png",
+    "sourceType": "mp4",
+    "video": "https://resources.sandpiper-productions.com/videos/arbiter/Complete-Profile.mp4"
+  },
+  {
+    "id": "209193e1-0cc8-4b8c-a950-b4bcf6f58c41",
+    "title": "Accept Invitation via Email",
+    "description": "How to accept an invitation to join our association's Arbiter platform.",
+    "publishedDate": "2025-09-08",
+    "category": ["Officials", "Arbiter"],
+    "series": ["Demystifying"],
+    "thumbnail": "/assets/images/video-catalog/accept-invitation-via-email.png",
+    "sourceType": "mp4",
+    "video": "https://resources.sandpiper-productions.com/videos/arbiter/Accept-Invitation-Email.mp4"
+  },
+  {
+    "id": "d646dfd3-e039-4ff8-8cc1-38c67ef0a4ec",
+    "title": "Add Profile Photo",
+    "description": "Learn how to add a photo to your Arbiter profile.",
+    "publishedDate": "2025-09-08",
+    "category": ["Officials", "Arbiter"],
+    "series": ["Demystifying"],
+    "thumbnail": "/assets/images/video-catalog/add-profile-photo.png",
+    "sourceType": "mp4",
+    "video": "https://resources.sandpiper-productions.com/videos/arbiter/Add-Profile-Photo.mp4"
+  }
+]

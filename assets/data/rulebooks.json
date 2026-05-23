@@ -1,0 +1,772 @@
+[
+  {
+    "id": "0870b783-edb9-4f46-aa97-68cb64e907d0",
+    "title": "Golden Valley Indoor Co-Rec Volleyball",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_84178592ad894bc4a2ac94a759a073ac.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_84178592ad894bc4a2ac94a759a073ac.pdf/Indoor%20Volleyball%20Rules.pdf",
+    "originalFilename": "Indoor Volleyball Rules.pdf",
+    "futureLocalPath": "/assets/rules/golden-valley-indoor-co-rec-volleyball.pdf",
+    "sport": [
+      "Volleyball"
+    ],
+    "city": [
+      "Golden Valley"
+    ],
+    "demographic": [
+      "Adult"
+    ],
+    "gender": [
+      "Both",
+      "Co-Ed",
+      "Female",
+      "Male"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "1bc35c4f-430d-44a5-8773-dd5e1f673b44",
+    "title": "Brooklyn Center Co-REC VB Rules 2025 - 2026",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_1f240f92b71f4c03a9fce764001b00f1.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_1f240f92b71f4c03a9fce764001b00f1.pdf/Rules%20-%20Co-Rec%202026%20Winter%20(1).pdf",
+    "originalFilename": "Rules - Co-Rec 2026 Winter (1).pdf",
+    "futureLocalPath": "/assets/rules/brooklyn-center-co-rec-vb-rules-2025-2026.pdf",
+    "sport": [
+      "Volleyball"
+    ],
+    "city": [
+      "Brooklyn Center"
+    ],
+    "demographic": [
+      "Adult"
+    ],
+    "gender": [
+      "Both",
+      "Co-Ed",
+      "Female",
+      "Male"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "27a4ef45-4eab-4e28-9903-a08dc2b5571c",
+    "title": "2026 PUBLIC AND CHARTER FLAG FOOTBALL RULEBOOK",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_3f39237b32e1487d9fd7fd7dc0f0eaa1.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_3f39237b32e1487d9fd7fd7dc0f0eaa1.pdf/PAC%20FOOTBALL%20RULES.pdf",
+    "originalFilename": "PAC FOOTBALL RULES.pdf",
+    "futureLocalPath": "/assets/rules/2026-public-and-charter-flag-football-rulebook.pdf",
+    "sport": [
+      "Flag Football"
+    ],
+    "city": [],
+    "demographic": [
+      "Youth"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "345827e4-6580-4b21-9a42-a6466f071cdd",
+    "title": "Brooklyn Center REC Women's VB Rules 2025 - 2026",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_729287c6559f48edb3a6c52ffdda6b87.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_729287c6559f48edb3a6c52ffdda6b87.pdf/Rules%20-%20Women.pdf",
+    "originalFilename": "Rules - Women.pdf",
+    "futureLocalPath": "/assets/rules/brooklyn-center-rec-women-s-vb-rules-2025-2026.pdf",
+    "sport": [
+      "Volleyball"
+    ],
+    "city": [
+      "Brooklyn Center"
+    ],
+    "demographic": [
+      "Adult"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "3575926c-4e24-46ba-bc87-42d2435cc1fb",
+    "title": "Wayzata SW House Basketball League Rules",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_dcb6eff9ec3a40928bea3805f0c9f43f.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_dcb6eff9ec3a40928bea3805f0c9f43f.pdf/SOUTHWEST%20LEAGUE%20BASKETBALL%20RULES.pdf",
+    "originalFilename": "SOUTHWEST LEAGUE BASKETBALL RULES.pdf",
+    "futureLocalPath": "/assets/rules/wayzata-sw-house-basketball-league-rules.pdf",
+    "sport": [
+      "Basketball"
+    ],
+    "city": [
+      "Wayzata"
+    ],
+    "demographic": [
+      "Youth"
+    ],
+    "gender": [
+      "Both",
+      "Female",
+      "Male"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "381ffd31-e1c5-4624-806d-248524ee89b0",
+    "title": "Bloomington Men Basketball Rules",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_e8c5f7c8e1044acbb4e8700a1375906e.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_e8c5f7c8e1044acbb4e8700a1375906e.pdf/2025%20Adult%20Basketball%20Rules.pdf",
+    "originalFilename": "2025 Adult Basketball Rules.pdf",
+    "futureLocalPath": "/assets/rules/bloomington-men-basketball-rules.pdf",
+    "sport": [
+      "Basketball"
+    ],
+    "city": [
+      "Bloomington"
+    ],
+    "demographic": [
+      "Adult"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "3b48b664-e531-4997-baf5-1c95b136f226",
+    "title": "Maple Grove Softball Rule Manual",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_9045e64a1b084fbc82a65ae317aa8b37.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_9045e64a1b084fbc82a65ae317aa8b37.pdf/Softball%20Manual.pdf",
+    "originalFilename": "Softball Manual.pdf",
+    "futureLocalPath": "/assets/rules/maple-grove-softball-rule-manual.pdf",
+    "sport": [
+      "Softball"
+    ],
+    "city": [
+      "Maple Grove"
+    ],
+    "demographic": [
+      "Adult"
+    ],
+    "gender": [
+      "Both",
+      "Co-Ed",
+      "Female",
+      "Male"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "3c7f6dea-e1f5-4194-a99d-7c476b57bc8c",
+    "title": "Coon Rapids Parks & Recreation Adult Slow Pitch Softball League Rules & Regulations",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_93713cb9b167435e84d3346e7ecf30f5.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_93713cb9b167435e84d3346e7ecf30f5.pdf/LeagueRules.pdf",
+    "originalFilename": "LeagueRules.pdf",
+    "futureLocalPath": "/assets/rules/coon-rapids-parks-recreation-adult-slow-pitch-softball-league-rules-regulations.pdf",
+    "sport": [
+      "Softball"
+    ],
+    "city": [
+      "Coon Rapids"
+    ],
+    "demographic": [
+      "Adult"
+    ],
+    "gender": [
+      "Both",
+      "Co-Ed",
+      "Female",
+      "Male"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "3c81947b-759b-4fba-b5d8-4a077823b42a",
+    "title": "Bloomington Winter Adult Volleyball Rules 2026",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_5c41948ee7804bf79ce01a18be29dd37.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_5c41948ee7804bf79ce01a18be29dd37.pdf/Winter%20Adult%20Volleyball%20Rules%20Flyer%202026.pdf",
+    "originalFilename": "Winter Adult Volleyball Rules Flyer 2026.pdf",
+    "futureLocalPath": "/assets/rules/bloomington-winter-adult-volleyball-rules-2026.pdf",
+    "sport": [
+      "Volleyball"
+    ],
+    "city": [
+      "Bloomington"
+    ],
+    "demographic": [
+      "Adult"
+    ],
+    "gender": [
+      "Both",
+      "Co-Ed",
+      "Female",
+      "Male"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "4382becd-c693-447f-a839-7585b5a81961",
+    "title": "MN High School Girls Flag Football",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_de3f7895750e4a8d9e9d050bee602d1a.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_de3f7895750e4a8d9e9d050bee602d1a.pdf/2026-27%20MN%20HS%20Girls%20Flag%20FB%20Rules_5.3.2026.pdf",
+    "originalFilename": "2026-27 MN HS Girls Flag FB Rules_5.3.2026.pdf",
+    "futureLocalPath": "/assets/rules/mn-high-school-girls-flag-football.pdf",
+    "sport": [
+      "Flag Football"
+    ],
+    "city": [],
+    "demographic": [
+      "High School"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "62383996-9b8a-42aa-9011-f60f3b8d7375",
+    "title": "Youth Basketball League - Golden Valley/SLP/Crystal/Robbinsdale",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_1b4eae26dda644dfaf98aa16f5344a51.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_1b4eae26dda644dfaf98aa16f5344a51.pdf/Youth%20Basketball%20League%20-%20Golden%20Valley_SLP_Crystal_Robbinsdale.pdf",
+    "originalFilename": "Youth Basketball League - Golden Valley_SLP_Crystal_Robbinsdale.pdf",
+    "futureLocalPath": "/assets/rules/youth-basketball-league-golden-valley-slp-crystal-robbinsdale.pdf",
+    "sport": [
+      "Basketball"
+    ],
+    "city": [
+      "Golden Valley",
+      "St. Louis Park",
+      "Crystal",
+      "Robbinsdale"
+    ],
+    "demographic": [
+      "Youth"
+    ],
+    "gender": [
+      "Both",
+      "Female",
+      "Male"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "72f5068d-3662-4782-aaa0-29b7bc77d70e",
+    "title": "2026 VIKINGS NFL FLAG RULES REVIEW",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_582f347d21ed44eaa574be6954d0db65.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_582f347d21ed44eaa574be6954d0db65.pdf/VIKINGS_NFL_FLAG_RULES_REVIEW.pdf",
+    "originalFilename": "VIKINGS_NFL_FLAG_RULES_REVIEW.pdf",
+    "futureLocalPath": "/assets/rules/2026-vikings-nfl-flag-rules-review.pdf",
+    "sport": [
+      "Flag Football"
+    ],
+    "city": [],
+    "demographic": [
+      "Youth",
+      "High School"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "863b2541-aed1-41c4-b75c-b41f9e759dd6",
+    "title": "Maple Grove Park & Rec Adult volleyball",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_33f79d07d7284f96b57818eb84f1403d.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_33f79d07d7284f96b57818eb84f1403d.pdf/2025-26%20Volleyball%20Manual.pdf",
+    "originalFilename": "2025-26 Volleyball Manual.pdf",
+    "futureLocalPath": "/assets/rules/maple-grove-park-rec-adult-volleyball.pdf",
+    "sport": [
+      "Volleyball"
+    ],
+    "city": [
+      "Maple Grove"
+    ],
+    "demographic": [
+      "Adult"
+    ],
+    "gender": [
+      "Co-Ed"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "8e96eb78-9930-43c8-9270-241d6727b860",
+    "title": "Brooklyn Center Rec Womens Adult Volleyball PLAYOFF rules",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_5cd4e9729cd040b488912a8bb0c97e88.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_5cd4e9729cd040b488912a8bb0c97e88.pdf/Tournament%20Rules-Women%202026.pdf",
+    "originalFilename": "Tournament Rules-Women 2026.pdf",
+    "futureLocalPath": "/assets/rules/brooklyn-center-rec-womens-adult-volleyball-playoff-rules.pdf",
+    "sport": [
+      "Volleyball"
+    ],
+    "city": [
+      "Brooklyn Center"
+    ],
+    "demographic": [
+      "Adult"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "9104b5f3-5b88-4f07-8804-be24884dae8d",
+    "title": "Fridley Men's Basketball League Rules",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_168dd2b2e0814e898c8be604055edcf5.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_168dd2b2e0814e898c8be604055edcf5.pdf/2025-2026%20Mens%20Basketball%20Rules.pdf",
+    "originalFilename": "2025-2026 Mens Basketball Rules.pdf",
+    "futureLocalPath": "/assets/rules/fridley-men-s-basketball-league-rules.pdf",
+    "sport": [
+      "Basketball"
+    ],
+    "city": [
+      "Fridley"
+    ],
+    "demographic": [
+      "Adult"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "a489b5a3-5f48-4a90-8c6b-88416f89f889",
+    "title": "Anoka Hennepin Adult Volleyball League Info",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_841516cdca8444a68a4a1bbddb649db0.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_841516cdca8444a68a4a1bbddb649db0.pdf/Anoka%20Hennepin%20Adult%20Volleyball%20Backpage%20rules.pdf",
+    "originalFilename": "Anoka Hennepin Adult Volleyball Backpage rules.pdf",
+    "futureLocalPath": "/assets/rules/anoka-hennepin-adult-volleyball-league-info.pdf",
+    "sport": [
+      "Volleyball"
+    ],
+    "city": [
+      "Anoka"
+    ],
+    "demographic": [
+      "Adult"
+    ],
+    "gender": [
+      "Both",
+      "Co-Ed",
+      "Female",
+      "Male"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "aa5019cb-8856-4380-9f5d-8de1d49a75ae",
+    "title": "Boys Southwest League 9th -12th Grade Rules",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_3baca7dbdfec4238894d6c7e63a2a9fe.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_3baca7dbdfec4238894d6c7e63a2a9fe.pdf/WBBA%20SW9-12%20Rules_1-2-26update.pdf",
+    "originalFilename": "WBBA SW9-12 Rules_1-2-26update.pdf",
+    "futureLocalPath": "/assets/rules/boys-southwest-league-9th-12th-grade-rules.pdf",
+    "sport": [
+      "Basketball"
+    ],
+    "city": [
+      "Wayzata"
+    ],
+    "demographic": [
+      "High School"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "ac87b245-66cc-49fb-bf26-6eb51fcd9ae8",
+    "title": "2026 Brooklyn Park 5v5 Basketball Rule",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_3afd50a0c9574f95958dd9d3efb6bad4.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_3afd50a0c9574f95958dd9d3efb6bad4.pdf/2026%20Brooklyn%20Park%20Basketball%20League%20Rules%20and%20Manager%20Handbook.pdf",
+    "originalFilename": "2026 Brooklyn Park Basketball League Rules and Manager Handbook.pdf",
+    "futureLocalPath": "/assets/rules/2026-brooklyn-park-5v5-basketball-rule.pdf",
+    "sport": [
+      "Basketball"
+    ],
+    "city": [
+      "Brooklyn Park"
+    ],
+    "demographic": [
+      "Adult"
+    ],
+    "gender": [
+      "Co-Ed",
+      "Female",
+      "Male"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "b22390ea-df7b-4df6-a226-d6492aecd730",
+    "title": "Edina Adult Basketball",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_241674a347944029887e0c62d050fa15.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_241674a347944029887e0c62d050fa15.pdf/2025-26%20Basketball%20Rules%20-%20Officials.pdf",
+    "originalFilename": "2025-26 Basketball Rules - Officials.pdf",
+    "futureLocalPath": "/assets/rules/edina-adult-basketball.pdf",
+    "sport": [
+      "Basketball"
+    ],
+    "city": [
+      "Edina"
+    ],
+    "demographic": [
+      "Adult"
+    ],
+    "gender": [],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "bb75c074-a7e9-4665-9d29-62b05ad1fd8b",
+    "title": "Anoka Hennepin Middle Schools Girls Basketball- Rules",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_b63865c9fef442a08178647ab3ddeeaf.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_b63865c9fef442a08178647ab3ddeeaf.pdf/ANOKA%20HENNEPIN%20MIDDLE%20SCHOOLS%20GIRLS%20Basketball-%20Rules.pdf",
+    "originalFilename": "ANOKA HENNEPIN MIDDLE SCHOOLS GIRLS Basketball- Rules.pdf",
+    "futureLocalPath": "/assets/rules/anoka-hennepin-middle-schools-girls-basketball-rules.pdf",
+    "sport": [
+      "Basketball"
+    ],
+    "city": [
+      "Anoka"
+    ],
+    "demographic": [
+      "Youth"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "bf895e74-8bce-40fa-88b2-6582936078e5",
+    "title": "Blaine/Centennial Adult Mens Basketball League 2025-26",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_1cc639bd9cc94580a9f00a21e775bf78.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_1cc639bd9cc94580a9f00a21e775bf78.pdf/2025%20-%202026%20Blaine-Centennial%20Basketball%20Rules.pdf",
+    "originalFilename": "2025 - 2026 Blaine-Centennial Basketball Rules.pdf",
+    "futureLocalPath": "/assets/rules/blaine-centennial-adult-mens-basketball-league-2025-26.pdf",
+    "sport": [
+      "Basketball"
+    ],
+    "city": [
+      "Blaine",
+      "Centennial"
+    ],
+    "demographic": [
+      "Adult"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "bff2819e-cfad-4302-a97c-262b52cfc833",
+    "title": "2026 City of Brooklyn Park Adult Softball League Rules and Regulations",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_b357d859583a466f909ac5863cc9c4df.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_b357d859583a466f909ac5863cc9c4df.pdf/2026%20City%20of%20Brooklyn%20Park%20Local%20Softball%20Rules%20with%20USSSA%20.pdf",
+    "originalFilename": "2026 City of Brooklyn Park Local Softball Rules with USSSA .pdf",
+    "futureLocalPath": "/assets/rules/2026-city-of-brooklyn-park-adult-softball-league-rules-and-regulations.pdf",
+    "sport": [
+      "Softball"
+    ],
+    "city": [
+      "Brooklyn Park"
+    ],
+    "demographic": [
+      "Adult"
+    ],
+    "gender": [
+      "Both",
+      "Co-Ed",
+      "Female",
+      "Male"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "c28a9b87-c7c3-4855-86aa-5b2bde0087ae",
+    "title": "RAYBA Girls and Boys House 7th – 12th Grade",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_10126bb52a694ef59c72074f13a79dad.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_10126bb52a694ef59c72074f13a79dad.pdf/Rogers%20Area%20Youth%20Basketball%20Association%20(Rayba).pdf",
+    "originalFilename": "Rogers Area Youth Basketball Association (Rayba).pdf",
+    "futureLocalPath": "/assets/rules/rayba-girls-and-boys-house-7th-12th-grade.pdf",
+    "sport": [
+      "Basketball"
+    ],
+    "city": [
+      "Rogers"
+    ],
+    "demographic": [
+      "Youth"
+    ],
+    "gender": [
+      "Both",
+      "Female",
+      "Male"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "c8244e3c-2046-40cb-980c-895b22a7768c",
+    "title": "Brooklyn Center Recreation 2026 Women's Volleyball Rules",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_81b297195f044ec5895f86006d99865a.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_81b297195f044ec5895f86006d99865a.pdf/Rules%20-%20Women%20Winter%202026.pdf",
+    "originalFilename": "Rules - Women Winter 2026.pdf",
+    "futureLocalPath": "/assets/rules/brooklyn-center-recreation-2026-women-s-volleyball-rules.pdf",
+    "sport": [
+      "Volleyball"
+    ],
+    "city": [
+      "Brooklyn Center"
+    ],
+    "demographic": [
+      "Adult"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "c8b27496-29ca-4965-bf91-6c05ee73c637",
+    "title": "NSBL Official Rules",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_b16371e69b974faab388d8e511287108.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_b16371e69b974faab388d8e511287108.pdf/NSBL%20Rules%202024%20(3-29-24)%20(1)%20(002).pdf",
+    "originalFilename": "NSBL Rules 2024 (3-29-24) (1) (002).pdf",
+    "futureLocalPath": "/assets/rules/nsbl-official-rules.pdf",
+    "sport": [
+      "Baseball"
+    ],
+    "city": [
+      "North Suburban"
+    ],
+    "demographic": [
+      "Youth"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "c9414993-c5d1-41ef-9f88-aafef209acea",
+    "title": "2026 NFL Flag Official Playing Rules",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_9e4aaa4d8c4b4b4db1f531585f2654c6.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_9e4aaa4d8c4b4b4db1f531585f2654c6.pdf/NFL_Flag_Rulebook_standard_2025.pdf",
+    "originalFilename": "NFL_Flag_Rulebook_standard_2025.pdf",
+    "futureLocalPath": "/assets/rules/2026-nfl-flag-official-playing-rules.pdf",
+    "sport": [
+      "Flag Football"
+    ],
+    "city": [],
+    "demographic": [
+      "Youth",
+      "High School"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "d397b296-41f9-40e3-9429-af119814bc56",
+    "title": "YMCA Basketball League Game Rules",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_000485fb8cfa4619b55697bba3a83c5d.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_000485fb8cfa4619b55697bba3a83c5d.pdf/YMCA%20Basketball%20League%20Game%20Rules.pdf",
+    "originalFilename": "YMCA Basketball League Game Rules.pdf",
+    "futureLocalPath": "/assets/rules/ymca-basketball-league-game-rules.pdf",
+    "sport": [
+      "Basketball"
+    ],
+    "city": [
+      "Metro"
+    ],
+    "demographic": [
+      "Youth"
+    ],
+    "gender": [
+      "Both",
+      "Female",
+      "Male"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "e07c492e-ad5f-4081-87c1-a1cda6574790",
+    "title": "Anoka Hennepin Middle Schools Boys Basketball- Rules",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_4f1dfa81dd36419c96341a5183894c3e.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_4f1dfa81dd36419c96341a5183894c3e.pdf/ANOKA%20HENNEPIN%20MIDDLE%20SCHOOLS%20Basketball-%20Rules.pdf",
+    "originalFilename": "ANOKA HENNEPIN MIDDLE SCHOOLS Basketball- Rules.pdf",
+    "futureLocalPath": "/assets/rules/anoka-hennepin-middle-schools-boys-basketball-rules.pdf",
+    "sport": [
+      "Basketball"
+    ],
+    "city": [
+      "Anoka"
+    ],
+    "demographic": [
+      "Youth"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "e2b7a2a5-6ff3-45c5-8b7a-ca4e626612ff",
+    "title": "Brooklyn Center REC Men's VB Rules 2025 - 2026",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_e07132f2bff64087bc4f7b466c0f4e59.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_e07132f2bff64087bc4f7b466c0f4e59.pdf/Rules%20-%20Mens%20Winter%202026.pdf",
+    "originalFilename": "Rules - Mens Winter 2026.pdf",
+    "futureLocalPath": "/assets/rules/brooklyn-center-rec-men-s-vb-rules-2025-2026.pdf",
+    "sport": [
+      "Volleyball"
+    ],
+    "city": [
+      "Brooklyn Center"
+    ],
+    "demographic": [
+      "Adult"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "e9b7b4b6-edd3-4652-9c00-ad3bad4a1e16",
+    "title": "Anoka Hennepin Adult Volleyball League Rules",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_0460d117d83a42cfa008e613307c2028.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_0460d117d83a42cfa008e613307c2028.pdf/Anoka%20Hennepin%20Adult%20Volleyball%202025%20League%20rules.pdf",
+    "originalFilename": "Anoka Hennepin Adult Volleyball 2025 League rules.pdf",
+    "futureLocalPath": "/assets/rules/anoka-hennepin-adult-volleyball-league-rules.pdf",
+    "sport": [
+      "Volleyball"
+    ],
+    "city": [
+      "Anoka"
+    ],
+    "demographic": [
+      "Adult"
+    ],
+    "gender": [
+      "Both",
+      "Co-Ed",
+      "Female",
+      "Male"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "f245d091-eb04-40f9-ab84-3d3c56bc6c34",
+    "title": "ANOKA HENNEPIN MIDDLE SCHOOLS Flag Football- Rules 2026",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_e20d9e17329841d98a58be49435a4fb7.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_e20d9e17329841d98a58be49435a4fb7.pdf/Flag%20Football%20Rules%202026.pdf",
+    "originalFilename": "Flag Football Rules 2026.pdf",
+    "futureLocalPath": "/assets/rules/anoka-hennepin-middle-schools-flag-football-rules-2026.pdf",
+    "sport": [
+      "Flag Football"
+    ],
+    "city": [
+      "Anoka",
+      "Hennepin"
+    ],
+    "demographic": [
+      "High School",
+      "Youth"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "f9ff8763-f112-4cde-be28-66b8f493b99c",
+    "title": "Northwest Metro League Rules",
+    "description": "",
+    "document": "https://static.wixstatic.com/ugd/fefb1d_f8635cd18ba04750af2e90de2587980e.pdf",
+    "originalDocument": "wix:document://v1/ugd/fefb1d_f8635cd18ba04750af2e90de2587980e.pdf/Northwest_rules_plus_scoresheet.pdf",
+    "originalFilename": "Northwest_rules_plus_scoresheet.pdf",
+    "futureLocalPath": "/assets/rules/northwest-metro-league-rules.pdf",
+    "sport": [
+      "Basketball"
+    ],
+    "city": [
+      "Metro Area"
+    ],
+    "demographic": [
+      "Youth"
+    ],
+    "gender": [
+      "Both",
+      "Female",
+      "Male"
+    ],
+    "filename": "Northwest Metro League Rules",
+    "status": "PUBLISHED"
+  }
+]

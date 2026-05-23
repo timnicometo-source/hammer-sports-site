@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Rulebook Search | Hammer Sports Officials</title>
+  <meta
+    name="description"
+    content="Search Hammer Sports Officials rulebooks by sport, city or area, demographic, gender, and keyword."
+  />
+
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+
+<body>
+  <div id="site-header"></div>
+
+  <main class="inner-page no-hero-page rules-search-page">
+    <section class="content-section page-section-tight">
+      <div class="container">
+        <article class="content-block prose rules-search-block">
+          <p class="eyebrow">Hammer Sports Officials</p>
+
+          <div class="rules-page-intro">
+            <div>
+              <h1>Rulebook Search</h1>
+              <p>
+                Search Hammer Sports rulebooks and rules resources by keyword,
+                sport, city or area, demographic, or gender.
+              </p>
+            </div>
+
+            <a class="btn btn-secondary" href="../rules/">
+              View All Rules
+            </a>
+          </div>
+
+          <form id="rulebookSearchForm" class="rulebook-search-panel">
+            <div class="rulebook-search-field search-field-wide">
+              <label for="keywordInput">Search Rulebooks</label>
+              <input
+                id="keywordInput"
+                type="search"
+                placeholder="Search by keyword..."
+                autocomplete="off"
+              />
+            </div>
+
+            <div class="rulebook-search-field">
+              <label for="sportSelect">Sport</label>
+              <select id="sportSelect">
+                <option value="">All Sports</option>
+              </select>
+            </div>
+
+            <div class="rulebook-search-field">
+              <label for="citySelect">City or Area</label>
+              <select id="citySelect">
+                <option value="">All Cities / Areas</option>
+              </select>
+            </div>
+
+            <div class="rulebook-search-field">
+              <label for="demographicSelect">Demographic</label>
+              <select id="demographicSelect">
+                <option value="">All Demographics</option>
+              </select>
+            </div>
+
+            <div class="rulebook-search-field">
+              <label for="genderSelect">Gender</label>
+              <select id="genderSelect">
+                <option value="">All Genders</option>
+              </select>
+            </div>
+
+            <div class="rulebook-search-actions">
+              <button class="btn btn-primary" type="submit">Search</button>
+              <button class="btn btn-secondary" id="clearSearchBtn" type="button">
+                Reset
+              </button>
+            </div>
+          </form>
+
+          <div class="rules-search-summary">
+            <p id="searchResultsSummary">
+              Select filters above, then search.
+            </p>
+          </div>
+
+          <div id="searchResultsList" class="rulebook-results-list" aria-live="polite"></div>
+
+          <div id="noSearchResults" class="rules-no-results" hidden>
+            <h2>No rulebooks found</h2>
+            <p>
+              Try removing one or more filters, checking your spelling, or using a
+              broader keyword.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/rules-search.js"></script>
+</body>
+</html>

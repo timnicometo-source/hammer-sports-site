@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Video Catalog | Hammer Sports Officials</title>
+  <meta
+    name="description"
+    content="Hammer Sports Officials Arbiter training videos and officiating resources."
+  />
+
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="../assets/css/video-catalog.css" />
+</head>
+
+<body data-page="video-catalog">
+  <div id="site-header"></div>
+
+  <main class="video-catalog-page">
+    <section class="hammer-catalog-hero">
+      <div class="hammer-catalog-hero-inner">
+        <p class="catalog-eyebrow">Hammer Sports Officials</p>
+        <h1>Video Catalog</h1>
+        <p class="catalog-intro">
+          Arbiter tutorials, assigning resources, and officiating development videos
+          for Hammer Sports officials.
+        </p>
+      </div>
+    </section>
+
+    <section class="catalog-controls" aria-label="Video filters">
+      <div class="filter-row" id="filterRow">
+       <button class="filter-btn" data-filter-type="all" data-filter-value="all">
+          All Videos
+        </button>
+        <button class="filter-btn is-active" data-filter-type="category" data-filter-value="Arbiter">Arbiter
+        </button>
+        
+        <!-- <button class="filter-btn" data-filter-type="category" data-filter-value="Officials"> -->
+          <!-- Officials -->
+        <!-- </button> -->
+        <!-- <button class="filter-btn" data-filter-type="series" data-filter-value="Demystifying"> -->
+          <!-- Demystifying -->
+        <!-- </button> -->
+      </div>
+
+      <div class="catalog-summary">
+        <p id="resultsSummary">Loading videos...</p>
+      </div>
+    </section>
+
+    <section class="catalog-grid-section">
+      <div id="videoGrid" class="video-grid" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <div class="video-modal" id="videoModal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="video-modal__backdrop" data-close-modal="true"></div>
+
+    <div class="video-modal__panel">
+      <button class="video-modal__close" id="modalClose" aria-label="Close video">×</button>
+
+      <div class="video-modal__media" id="modalMedia"></div>
+
+      <div class="video-modal__body">
+        <p class="modal-kicker" id="modalMeta"></p>
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription"></p>
+      </div>
+    </div>
+  </div>
+
+  <template id="videoCardTemplate">
+    <article class="video-card">
+      <div class="video-card__button">
+        <div class="video-card__floating">
+          <div class="video-card__thumb-wrap">
+            <img class="video-card__thumb" alt="" />
+          </div>
+        </div>
+
+        <div class="video-card__content">
+          <h2 class="video-card__title-static"></h2>
+        </div>
+
+        <div class="video-card__hover-panel" aria-hidden="true">
+          <div class="video-card__hover-media">
+            <img class="video-card__hover-thumb" alt="" />
+          </div>
+
+          <div class="video-card__hover-content">
+            <h2 class="video-card__hover-title"></h2>
+            <p class="video-card__hover-meta"></p>
+            <p class="video-card__hover-desc"></p>
+            <p class="video-card__hover-date"></p>
+
+            <div class="video-card__hover-actions">
+              <button class="video-card__play" type="button">Watch Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <div id="site-footer"></div>
+
+  <script src="../assets/js/main.js" defer></script>
+  <script src="../assets/js/video-catalog.js" defer></script>
+</body>
+</html>
