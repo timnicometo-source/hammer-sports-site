@@ -352,7 +352,7 @@ select {
   position: absolute;
   left: 40%;
   top: 105px;
-  width: clamp(250px, 3vw, 370px);
+  width: clamp(250px, 10vw, 370px);
   transform: translateX(-50%) translateY(-90px);
   opacity: 0;
   filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.28));
@@ -2605,13 +2605,17 @@ select {
    Responsive
    ========================= */
 
+/* =========================
+   Responsive
+   ========================= */
+
 @media (max-width: 1180px) {
   .hero-support-left {
-    left: 24%;
+    left: 18%;
   }
 
   .hero-support-right {
-    right: 20%;
+    right: 16%;
   }
 
   .hero-eat-sleep {
@@ -2620,30 +2624,38 @@ select {
 }
 
 @media (max-width: 980px) {
+  /* Mobile Header / Nav */
   .site-header {
     position: fixed;
     top: 10px;
     left: 12px;
     right: 12px;
+    z-index: 999;
     justify-content: flex-end;
+    pointer-events: none;
+  }
+
+  .floating-nav {
+    position: relative;
+    pointer-events: auto;
   }
 
   .nav-toggle {
     display: grid;
     place-items: center;
-    width: 44px;
-    height: 40px;
+    width: 48px;
+    height: 44px;
     margin-left: auto;
     border: 0;
-    border-radius: 10px;
+    border-radius: 12px;
     background: rgba(245, 240, 233, 0.96);
-    box-shadow: var(--shadow);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
     cursor: pointer;
   }
 
   .nav-toggle span {
     display: block;
-    width: 22px;
+    width: 24px;
     height: 2px;
     margin: 3px 0;
     background: var(--brown);
@@ -2651,7 +2663,7 @@ select {
 
   .nav-menu {
     position: absolute;
-    top: 48px;
+    top: 54px;
     right: 0;
     display: none;
     width: min(320px, calc(100vw - 24px));
@@ -2659,6 +2671,7 @@ select {
     align-items: stretch;
     border-radius: 14px;
     overflow: hidden;
+    background: linear-gradient(#f3ede4, #ded3c5);
   }
 
   .nav-menu.is-open {
@@ -2670,6 +2683,7 @@ select {
     width: 100%;
     justify-content: space-between;
     min-height: 44px;
+    padding: 0 18px;
     border-right: 0;
     border-bottom: 1px solid rgba(110, 75, 64, 0.2);
   }
@@ -2678,6 +2692,7 @@ select {
     position: static;
     display: none;
     min-width: 0;
+    padding: 6px;
     box-shadow: none;
     border-radius: 0;
     opacity: 1;
@@ -2689,39 +2704,55 @@ select {
     display: block;
   }
 
+  /* Tablet Hero */
   .hero-banner,
   .hero-stage {
-    min-height: 430px;
+    min-height: 500px;
+  }
+
+  .hero-stage {
+    width: min(100% - 32px, 760px);
   }
 
   .hero-main-logo {
-    top: 128px;
-    width: 250px;
+    left: 50%;
+    top: 130px;
+    width: min(58vw, 330px);
   }
 
   .hero-support-left {
-    left: 9%;
-    top: 144px;
+    left: 7%;
+    top: 150px;
     width: 78px;
   }
 
   .hero-support-right {
-    right: 8%;
-    top: 144px;
-    width: 135px;
+    right: 7%;
+    top: 150px;
+    width: 130px;
   }
 
   .hero-eat-sleep {
-    right: 7%;
-    top: 285px;
-    font-size: 2rem;
+    left: 50%;
+    right: auto;
+    top: 370px;
+    width: 100%;
+    justify-content: center;
+    font-size: clamp(1.8rem, 5vw, 2.6rem);
+    letter-spacing: -0.065em;
+    text-align: center;
+    white-space: nowrap;
+    transform: translateX(-50%) translateY(14px);
   }
 
   .hero-practice {
-    top: 305px;
-    width: 115px;
+    left: 50%;
+    top: 420px;
+    width: 110px;
+    transform: translateX(-50%);
   }
 
+  /* General Responsive Layouts */
   .intro-float-slideshow {
     float: none;
     width: 100%;
@@ -2768,7 +2799,7 @@ select {
     gap: 36px;
   }
 
-    .about-assignor-grid {
+  .about-assignor-grid {
     grid-template-columns: 1fr;
     max-width: 720px;
     margin-inline: auto;
@@ -2777,6 +2808,7 @@ select {
   .about-assignor-photo {
     height: 420px;
   }
+
   .rules-page-intro {
     flex-direction: column;
   }
@@ -2804,11 +2836,13 @@ select {
   .rulebook-result-actions {
     justify-content: flex-start;
   }
-    .contact-card-grid,
+
+  .contact-card-grid,
   .contact-resource-grid {
     grid-template-columns: 1fr;
   }
-    .hammer-contact-layout {
+
+  .hammer-contact-layout {
     grid-template-columns: 1fr;
   }
 }
@@ -2851,34 +2885,44 @@ select {
     border-radius: 18px;
   }
 
+  /* iPhone Hero Fix */
   .hero-banner,
   .hero-stage {
-    min-height: 350px;
+    min-height: 520px;
+  }
+
+  .hero-stage {
+    width: calc(100% - 24px);
   }
 
   .hero-main-logo {
-    top: 105px;
-    width: 205px;
+    left: 50%;
+    top: 150px;
+    width: min(78vw, 300px);
   }
 
   .hero-support-left {
-    left: 7%;
-    top: 128px;
-    width: 62px;
+    left: 6%;
+    top: 138px;
+    width: 58px;
   }
 
   .hero-support-right {
     right: 6%;
-    top: 128px;
-    width: 98px;
+    top: 145px;
+    width: 104px;
   }
 
   .hero-eat-sleep {
     left: 50%;
     right: auto;
-    top: 250px;
+    top: 365px;
+    width: 100%;
+    justify-content: center;
+    font-size: clamp(1.45rem, 6.8vw, 2rem);
+    letter-spacing: -0.055em;
+    text-align: center;
     white-space: nowrap;
-    font-size: 1.65rem;
     transform: translateX(-50%) translateY(14px);
   }
 
@@ -2951,7 +2995,7 @@ select {
     padding: 18px 0;
   }
 
-    .about-page-heading {
+  .about-page-heading {
     margin-bottom: 32px;
   }
 
@@ -2967,7 +3011,6 @@ select {
     height: 360px;
   }
 
-
   .payment-alert {
     padding: 20px;
   }
@@ -2975,14 +3018,16 @@ select {
   .payment-final-note {
     padding: 22px;
   }
-    .uniform-sport-section {
+
+  .uniform-sport-section {
     padding: 24px 22px 26px;
   }
 
   .uniform-callout {
     padding: 22px;
   }
-    .rulebook-search-panel {
+
+  .rulebook-search-panel {
     grid-template-columns: 1fr;
     padding: 22px;
   }
@@ -2999,7 +3044,8 @@ select {
   .rulebook-result-card {
     padding: 20px;
   }
-    .faq-category-heading,
+
+  .faq-category-heading,
   .faq-section {
     padding: 24px 22px;
   }
@@ -3012,7 +3058,8 @@ select {
   .faq-callout {
     padding: 20px;
   }
-    .contact-primary-card,
+
+  .contact-primary-card,
   .contact-info-card,
   .contact-resource-section {
     padding: 24px 22px;
@@ -3021,7 +3068,8 @@ select {
   .contact-email-display {
     width: 100%;
   }
-    .hammer-contact-form-card,
+
+  .hammer-contact-form-card,
   .hammer-contact-panel {
     padding: 24px 22px;
   }
