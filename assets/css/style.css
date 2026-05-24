@@ -2605,17 +2605,13 @@ select {
    Responsive
    ========================= */
 
-/* =========================
-   Responsive
-   ========================= */
-
 @media (max-width: 1180px) {
   .hero-support-left {
-    left: 18%;
+    left: 24%;
   }
 
   .hero-support-right {
-    right: 16%;
+    right: 20%;
   }
 
   .hero-eat-sleep {
@@ -2624,7 +2620,7 @@ select {
 }
 
 @media (max-width: 980px) {
-  /* Mobile Header / Nav */
+  /* Mobile / Tablet Header Nav */
   .site-header {
     position: fixed;
     top: 10px;
@@ -2643,19 +2639,19 @@ select {
   .nav-toggle {
     display: grid;
     place-items: center;
-    width: 48px;
-    height: 44px;
+    width: 44px;
+    height: 40px;
     margin-left: auto;
     border: 0;
-    border-radius: 12px;
+    border-radius: 10px;
     background: rgba(245, 240, 233, 0.96);
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+    box-shadow: var(--shadow);
     cursor: pointer;
   }
 
   .nav-toggle span {
     display: block;
-    width: 24px;
+    width: 22px;
     height: 2px;
     margin: 3px 0;
     background: var(--brown);
@@ -2663,7 +2659,7 @@ select {
 
   .nav-menu {
     position: absolute;
-    top: 54px;
+    top: 48px;
     right: 0;
     display: none;
     width: min(320px, calc(100vw - 24px));
@@ -2704,55 +2700,40 @@ select {
     display: block;
   }
 
-  /* Tablet Hero */
+  /* Tablet Hero - still visible on tablets */
   .hero-banner,
   .hero-stage {
-    min-height: 500px;
-  }
-
-  .hero-stage {
-    width: min(100% - 32px, 760px);
+    min-height: 430px;
   }
 
   .hero-main-logo {
-    left: 50%;
-    top: 130px;
-    width: min(58vw, 330px);
+    top: 128px;
+    width: 250px;
   }
 
   .hero-support-left {
-    left: 7%;
-    top: 150px;
+    left: 9%;
+    top: 144px;
     width: 78px;
   }
 
   .hero-support-right {
-    right: 7%;
-    top: 150px;
-    width: 130px;
+    right: 8%;
+    top: 144px;
+    width: 135px;
   }
 
   .hero-eat-sleep {
-    left: 50%;
-    right: auto;
-    top: 370px;
-    width: 100%;
-    justify-content: center;
-    font-size: clamp(1.8rem, 5vw, 2.6rem);
-    letter-spacing: -0.065em;
-    text-align: center;
-    white-space: nowrap;
-    transform: translateX(-50%) translateY(14px);
+    right: 7%;
+    top: 285px;
+    font-size: 2rem;
   }
 
   .hero-practice {
-    left: 50%;
-    top: 420px;
-    width: 110px;
-    transform: translateX(-50%);
+    top: 305px;
+    width: 115px;
   }
 
-  /* General Responsive Layouts */
   .intro-float-slideshow {
     float: none;
     width: 100%;
@@ -2885,49 +2866,21 @@ select {
     border-radius: 18px;
   }
 
-  /* iPhone Hero Fix */
-  .hero-banner,
-  .hero-stage {
-    min-height: 520px;
-  }
-
-  .hero-stage {
-    width: calc(100% - 24px);
-  }
-
-  .hero-main-logo {
-    left: 50%;
-    top: 150px;
-    width: min(78vw, 300px);
-  }
-
-  .hero-support-left {
-    left: 6%;
-    top: 138px;
-    width: 58px;
-  }
-
-  .hero-support-right {
-    right: 6%;
-    top: 145px;
-    width: 104px;
-  }
-
-  .hero-eat-sleep {
-    left: 50%;
-    right: auto;
-    top: 365px;
-    width: 100%;
-    justify-content: center;
-    font-size: clamp(1.45rem, 6.8vw, 2rem);
-    letter-spacing: -0.055em;
-    text-align: center;
-    white-space: nowrap;
-    transform: translateX(-50%) translateY(14px);
-  }
-
-  .hero-practice {
+  /* 
+     Phone-only homepage fix:
+     Hide the large hero/logo/banner area on iPhone-sized screens.
+     Desktop and tablet remain unchanged.
+  */
+  .hero-banner {
     display: none;
+  }
+
+  /*
+     Adds breathing room below the fixed hamburger nav
+     now that the large hero banner is hidden.
+  */
+  .intro-section {
+    padding-top: 92px;
   }
 
   .button-row {
