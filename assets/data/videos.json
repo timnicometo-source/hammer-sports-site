@@ -1,5 +1,16 @@
 [
   {
+    "id": "74d0be9a-2c81-45f7-a3d6-9b1e5c7f8a23",
+    "title": "MOA Football Training Video 2026",
+    "description": "MOA Football Training Video 2026",
+    "publishedDate": "2026-08-20",
+    "category": ["Football"],
+    "series": ["MOA Training Tapes"],
+    "thumbnail": "https://resources.sandpiper-productions.com/videos/football/moa-fb-2026-tn1.png",
+    "sourceType": "Zoom Recording",
+    "video": "https://resources.sandpiper-productions.com/videos/football/MOA-football-preseason-2026.mp4"
+  },
+  {
     "id": "0b86b76f-b8cd-4b65-966b-f92f6c41c2f2",
     "title": "Arbiter Blocks",
     "description": "Learn how to properly update your Arbiter Blocks to avoid being assigned a game when you are not available.",
