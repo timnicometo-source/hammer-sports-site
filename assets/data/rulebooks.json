@@ -1,5 +1,165 @@
 [
-  
+  {
+  "id": "tackle-football-prohibition-on-slapping-the-head",
+  "title": "Prohibition on Slapping the Head",
+  "description": "",
+  "document": "https://resources.sandpiper-productions.com/docs/fb/NFHS-2026-Rule-Change-helmet-slap.pdf",
+  "originalDocument": "",
+  "originalFilename": "NFHS-2026-Rule-Change-helmet-slap.pdf",
+  "futureLocalPath": "https://resources.sandpiper-productions.com/docs/fb/NFHS-2026-Rule-Change-helmet-slap.pdf",
+  "sport": [
+    "Tackle Football"
+  ],
+  "city": [],
+  "demographic": [
+    "High School"
+  ],
+  "gender": [
+    "Both",
+    "Female",
+    "Male"
+  ],
+  "filename": "",
+  "status": "PUBLISHED"
+},
+{
+  "id": "tackle-football-2026-nfhs-football-rules-press-release",
+  "title": "2026 NFHS Football Rules Press Release",
+  "description": "",
+  "document": "https://resources.sandpiper-productions.com/docs/fb/NFHS-2026-FB-Rule-Change.pdf",
+  "originalDocument": "",
+  "originalFilename": "NFHS-2026-FB-Rule-Change.pdf",
+  "futureLocalPath": "https://resources.sandpiper-productions.com/docs/fb/NFHS-2026-FB-Rule-Change.pdf",
+  "sport": [
+    "Tackle Football"
+  ],
+  "city": [],
+  "demographic": [
+    "High School"
+  ],
+  "gender": [
+    "Both",
+    "Female",
+    "Male"
+  ],
+  "filename": "",
+  "status": "PUBLISHED"
+},
+{
+  "id": "tackle-football-minnesota-overtime-rules",
+  "title": "Minnesota Overtime Rules",
+  "description": "",
+  "document": "https://resources.sandpiper-productions.com/docs/fb/MSHSL-FB_MN_OT_Procedure.pdf",
+  "originalDocument": "",
+  "originalFilename": "MSHSL-FB_MN_OT_Procedure.pdf",
+  "futureLocalPath": "https://resources.sandpiper-productions.com/docs/fb/MSHSL-FB_MN_OT_Procedure.pdf",
+  "sport": [
+    "Tackle Football"
+  ],
+  "city": [],
+  "demographic": [
+    "High School"
+  ],
+  "gender": [
+    "Both",
+    "Female",
+    "Male"
+  ],
+  "filename": "",
+  "status": "PUBLISHED"
+},
+{
+  "id": "tackle-football-mercy-rule-timing-table",
+  "title": "Mercy Rule Timing Table",
+  "description": "",
+  "document": "https://resources.sandpiper-productions.com/docs/fb/MSHSL-FB-Mercy-Rule-CasePlaysTable.pdf",
+  "originalDocument": "",
+  "originalFilename": "MSHSL-FB-Mercy-Rule-CasePlaysTable.pdf",
+  "futureLocalPath": "https://resources.sandpiper-productions.com/docs/fb/MSHSL-FB-Mercy-Rule-CasePlaysTable.pdf",
+  "sport": [
+    "Tackle Football"
+  ],
+  "city": [],
+  "demographic": [
+    "High School"
+  ],
+  "gender": [
+    "Both",
+    "Female",
+    "Male"
+  ],
+  "filename": "",
+  "status": "PUBLISHED"
+},
+{
+  "id": "tackle-football-mechanics-adjustments-4-person-crew",
+  "title": "Mechanics Adjustments for 4-Person Crew",
+  "description": "",
+  "document": "https://resources.sandpiper-productions.com/docs/fb/MSHSL-FB-4-Person-Crews.pdf",
+  "originalDocument": "",
+  "originalFilename": "MSHSL-FB-4-Person-Crews.pdf",
+  "futureLocalPath": "https://resources.sandpiper-productions.com/docs/fb/MSHSL-FB-4-Person-Crews.pdf",
+  "sport": [
+    "Tackle Football"
+  ],
+  "city": [],
+  "demographic": [
+    "High School"
+  ],
+  "gender": [
+    "Both",
+    "Female",
+    "Male"
+  ],
+  "filename": "",
+  "status": "PUBLISHED"
+},
+{
+  "id": "tackle-football-mechanics-adjustments-3-person-crew",
+  "title": "Mechanics Adjustments for 3-Person Crew",
+  "description": "",
+  "document": "https://resources.sandpiper-productions.com/docs/fb/3PersonFBMechanicsManual-UPDATED-8-2-2023.pdf",
+  "originalDocument": "",
+  "originalFilename": "3PersonFBMechanicsManual-UPDATED-8-2-2023.pdf",
+  "futureLocalPath": "https://resources.sandpiper-productions.com/docs/fb/3PersonFBMechanicsManual-UPDATED-8-2-2023.pdf",
+  "sport": [
+    "Tackle Football"
+  ],
+  "city": [],
+  "demographic": [
+    "High School"
+  ],
+  "gender": [
+    "Both",
+    "Female",
+    "Male"
+  ],
+  "filename": "",
+  "status": "PUBLISHED"
+},
+{
+  "id": "tackle-football-2026-2027-mshsl-football-mn-rules-modifications",
+  "title": "2026-2027 MSHSL Football MN Rules Modifications",
+  "description": "",
+  "document": "https://resources.sandpiper-productions.com/docs/fb/2026-2027-FOOTBALL-MN-Modifications.pdf",
+  "originalDocument": "",
+  "originalFilename": "2026-2027-FOOTBALL-MN-Modifications.pdf",
+  "futureLocalPath": "https://resources.sandpiper-productions.com/docs/fb/2026-2027-FOOTBALL-MN-Modifications.pdf",
+  "sport": [
+    "Tackle Football"
+  ],
+  "city": [],
+  "demographic": [
+    "High School"
+  ],
+  "gender": [
+    "Both",
+    "Female",
+    "Male"
+  ],
+  "filename": "",
+  "status": "PUBLISHED"
+},
   {
   "id": "c1259355-744f-409b-a701-4475659ece57",
   "title": "North Metro Adult Sand Volleyball League Rules",

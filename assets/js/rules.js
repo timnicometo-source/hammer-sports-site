@@ -2,13 +2,13 @@ const rulesGroupedList = document.getElementById("rulesGroupedList");
 const rulesStatus = document.getElementById("rulesStatus");
 
 const SPORT_ORDER = [
-  "Basketball",
+  
+"Tackle Football",
+"Flag Football",
   "Volleyball",
   "Softball",
   "Baseball",
-  "Soccer",
-  "Football",
-  "Flag Football"
+  "Basketball"
 ];
 
 function normalizeToArray(value) {
