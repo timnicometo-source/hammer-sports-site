@@ -1,6 +1,30 @@
 [
   
   {
+  "id": "Maple Grove 2026-27-Volleyball-Manual.pdf",
+  "title": "Maple Grove-2026-27-Volleyball-Manual.pdf",
+  "description": "",
+  "document": "/assets/docs/rules/2026-27-Volleyball-Manual.pdf",
+  "originalDocument": "",
+  "originalFilename": "2026-27-Volleyball-Manual.pdf",
+  "futureLocalPath": "assets/docs/rules/2026-27-Volleyball-Manual.pdf",
+  "sport": [
+    "Volleyball"
+  ],
+  "city": ["Maple Grove"],
+  "demographic": [
+    "Adult"
+  ],
+  "gender": [
+    "Both",
+    "Female",
+    "Male"
+  ],
+  "filename": "",
+  "status": "PUBLISHED"
+},
+  
+  {
   "id": "Princeton-MS-FB Rules-7th-and-8th-Grade",
   "title": "Princeton MS FB Rules 7th and 8th Grade",
   "description": "",
@@ -500,29 +524,7 @@
     "filename": "",
     "status": "PUBLISHED"
   },
-  {
-    "id": "863b2541-aed1-41c4-b75c-b41f9e759dd6",
-    "title": "Maple Grove Park & Rec Adult volleyball",
-    "description": "",
-    "document": "https://static.wixstatic.com/ugd/fefb1d_33f79d07d7284f96b57818eb84f1403d.pdf",
-    "originalDocument": "wix:document://v1/ugd/fefb1d_33f79d07d7284f96b57818eb84f1403d.pdf/2025-26%20Volleyball%20Manual.pdf",
-    "originalFilename": "2025-26 Volleyball Manual.pdf",
-    "futureLocalPath": "/assets/rules/maple-grove-park-rec-adult-volleyball.pdf",
-    "sport": [
-      "Volleyball"
-    ],
-    "city": [
-      "Maple Grove"
-    ],
-    "demographic": [
-      "Adult"
-    ],
-    "gender": [
-      "Co-Ed"
-    ],
-    "filename": "",
-    "status": "PUBLISHED"
-  },
+  
   {
     "id": "8e96eb78-9930-43c8-9270-241d6727b860",
     "title": "Brooklyn Center Rec Womens Adult Volleyball PLAYOFF rules",
