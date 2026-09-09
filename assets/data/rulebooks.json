@@ -1,4 +1,28 @@
 [
+  
+  {
+  "id": "Princeton-MS-FB Rules-7th-and-8th-Grade",
+  "title": "Princeton MS FB Rules 7th and 8th Grade",
+  "description": "",
+  "document": "/assets/docs/rules/Princeton-MS-FB Rules-7th-and-8th-Grade.pdf",
+  "originalDocument": "",
+  "originalFilename": "Princeton-MS-FB Rules-7th-and-8th-Grade",
+  "futureLocalPath": "assets/docs/rules/Princeton-MS-FB-Rules-7th-and-8th-Grade.pdf",
+  "sport": [
+    "Tackle Football"
+  ],
+  "city": ["Princeton"],
+  "demographic": [
+    "Middle School"
+  ],
+  "gender": [
+    "Both",
+    "Female",
+    "Male"
+  ],
+  "filename": "",
+  "status": "PUBLISHED"
+},
   {
   "id": "tackle-football-prohibition-on-slapping-the-head",
   "title": "Prohibition on Slapping the Head",
