@@ -1,6 +1,32 @@
 [
   
   {
+  "id": "north-metro-junior-football-league-rules",
+  "title": "North Metro Junior Football League Rules",
+  "description": "",
+  "document": "/assets/docs/rules/2026-North-Metro-JH-League-Rules.pdf",
+  "originalDocument": "",
+  "originalFilename": "2026-North-Metro-JH-League-Rules.pdf",
+  "futureLocalPath": "/assets/docs/rules/2026-North-Metro-JH-League-Rules.pdf",
+  "sport": [
+    "Tackle Football"
+  ],
+  "city": [
+    "North Metro"
+  ],
+  "demographic": [
+    "Junior HIgh"
+  ],
+  "gender": [
+    "Co-Ed",
+    "Female",
+    "Male"
+  ],
+  "filename": "",
+  "status": "PUBLISHED",
+  "dateAdded": "2026-09-10"
+},
+  {
   "id": "Maple Grove 2026-27-Volleyball-Manual.pdf",
   "title": "Maple Grove-2026-27-Volleyball-Manual.pdf",
   "description": "",
@@ -21,7 +47,8 @@
     "Male"
   ],
   "filename": "",
-  "status": "PUBLISHED"
+  "status": "PUBLISHED",
+  "dateAdded": "2026-09-10"
 },
   
   {

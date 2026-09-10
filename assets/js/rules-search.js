@@ -162,6 +162,33 @@ function filterRulebooks() {
   });
 }
 
+function sortRulebooks(items) {
+  return [...items].sort((a, b) => {
+    const aDate = Date.parse(a.dateAdded || "");
+    const bDate = Date.parse(b.dateAdded || "");
+
+    // If both records have dateAdded, sort newest first.
+    if (!Number.isNaN(aDate) && !Number.isNaN(bDate)) {
+      return bDate - aDate;
+    }
+
+    // If only one record has dateAdded, place it above older records.
+    if (!Number.isNaN(aDate)) return -1;
+    if (!Number.isNaN(bDate)) return 1;
+
+    // If neither record has dateAdded, keep the original JSON order.
+    const aIndex = Number.isInteger(a.__originalIndex)
+      ? a.__originalIndex
+      : 999999;
+
+    const bIndex = Number.isInteger(b.__originalIndex)
+      ? b.__originalIndex
+      : 999999;
+
+    return aIndex - bIndex;
+  });
+}
+
 function getTagLine(item) {
   const parts = [
     ...normalizeToArray(item.sport),
@@ -220,9 +247,7 @@ function renderResults(results) {
 
   noSearchResults.hidden = true;
 
-  const sortedResults = [...results].sort((a, b) => {
-    return String(a.title || "").localeCompare(String(b.title || ""));
-  });
+  const sortedResults = sortRulebooks(results);
 
   searchResultsList.innerHTML = sortedResults.map(createResultCard).join("");
 }
@@ -255,7 +280,12 @@ async function loadRulebooks() {
 
     const data = await response.json();
 
-    allRulebooks = Array.isArray(data) ? data : data.rulebooks || [];
+    allRulebooks = (Array.isArray(data) ? data : data.rulebooks || []).map(
+      (item, index) => ({
+        ...item,
+        __originalIndex: index
+      })
+    );
 
     populateFilters(allRulebooks.filter(isPublished));
 

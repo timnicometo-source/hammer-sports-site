@@ -334,7 +334,7 @@
         <h1>Rulebooks Builder</h1>
         <p>
           Use this page to create a JSON record for <strong>assets/data/rulebooks.json</strong>.
-          This page does not upload PDFs automatically. Add the PDF to <strong>assets/rules/</strong>,
+          This page does not upload PDFs automatically. Add the PDF to <strong>assets/docs/rules/</strong>,
           then generate and copy the JSON record.
         </p>
       </header>
@@ -366,16 +366,17 @@
               </div>
 
               <div class="field full">
-                <label for="localFileName">Local PDF File Name</label>
+                <label for="localFileName">Local PDF File Name or Full URL</label>
                 <input
                   id="localFileName"
                   name="localFileName"
                   type="text"
-                  placeholder="brooklyn-center-co-rec-volleyball-rules-2026.pdf"
+                  placeholder="example-rulebook.pdf or https://resources.sandpiper-productions.com/docs/fb/example.pdf"
                   required
                 >
                 <p class="hint">
-                  Save the PDF in <code>assets/rules/</code>. Use lowercase file names with hyphens and no spaces.
+                  For local PDFs, save the file in <code>assets/docs/rules/</code> and enter only the file name.
+                  For external PDFs, paste the full URL.
                 </p>
               </div>
 
@@ -392,15 +393,37 @@
                 </p>
               </div>
 
+              <div class="field">
+                <label for="dateAdded">Date Added</label>
+                <input
+                  id="dateAdded"
+                  name="dateAdded"
+                  type="date"
+                >
+                <p class="hint">
+                  Used to sort newest rulebooks first. Defaults to today if left blank.
+                </p>
+              </div>
+
+              <div class="field">
+                <label for="filename">Filename Label</label>
+                <input
+                  id="filename"
+                  name="filename"
+                  type="text"
+                  placeholder="Optional display/search label"
+                >
+              </div>
+
               <div class="field full">
                 <label for="sport">Sport</label>
                 <div class="checkbox-group" data-checkbox-group="sport">
-                  <label class="checkbox-item"><input type="checkbox" name="sport" value="Basketball"> Basketball</label>
-                  <label class="checkbox-item"><input type="checkbox" name="sport" value="Baseball"> Baseball</label>
-                  <label class="checkbox-item"><input type="checkbox" name="sport" value="Softball"> Softball</label>
-                  <label class="checkbox-item"><input type="checkbox" name="sport" value="Football"> Football</label>
+                  <label class="checkbox-item"><input type="checkbox" name="sport" value="Tackle Football"> Tackle Football</label>
                   <label class="checkbox-item"><input type="checkbox" name="sport" value="Flag Football"> Flag Football</label>
                   <label class="checkbox-item"><input type="checkbox" name="sport" value="Volleyball"> Volleyball</label>
+                  <label class="checkbox-item"><input type="checkbox" name="sport" value="Softball"> Softball</label>
+                  <label class="checkbox-item"><input type="checkbox" name="sport" value="Baseball"> Baseball</label>
+                  <label class="checkbox-item"><input type="checkbox" name="sport" value="Basketball"> Basketball</label>
                   <label class="checkbox-item"><input type="checkbox" name="sport" value="Soccer"> Soccer</label>
                   <label class="checkbox-item"><input type="checkbox" name="sport" value="Kickball"> Kickball</label>
                 </div>
@@ -436,16 +459,6 @@
                   <label class="checkbox-item"><input type="checkbox" name="gender" value="Female"> Female</label>
                   <label class="checkbox-item"><input type="checkbox" name="gender" value="Male"> Male</label>
                 </div>
-              </div>
-
-              <div class="field">
-                <label for="filename">Filename Label</label>
-                <input
-                  id="filename"
-                  name="filename"
-                  type="text"
-                  placeholder="Optional display/search label"
-                >
               </div>
 
               <div class="field">
@@ -485,11 +498,12 @@
       <section class="instructions">
         <h2>How to add a new searchable rulebook</h2>
         <ol>
-          <li>Save the new PDF in <code>assets/rules/</code>.</li>
+          <li>Save the new PDF in <code>assets/docs/rules/</code>, or paste the full external PDF URL into the file field.</li>
           <li>Use this builder to generate a JSON record.</li>
+          <li>The builder will include <code>dateAdded</code>, which allows the rules page and search page to show newest items first.</li>
           <li>Open <code>assets/data/rulebooks.json</code>.</li>
           <li>Paste the generated object into the main array.</li>
-          <li>Commit and push both the PDF and <code>rulebooks.json</code>.</li>
+          <li>Commit and push the PDF, if local, and <code>rulebooks.json</code>.</li>
         </ol>
       </section>
     </div>
@@ -510,8 +524,8 @@
     const previewMeta = document.getElementById("previewMeta");
 
     function createId() {
-      if (crypto && crypto.randomUUID) {
-        return crypto.randomUUID();
+      if (window.crypto && window.crypto.randomUUID) {
+        return window.crypto.randomUUID();
       }
 
       return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, (char) => {
@@ -531,11 +545,25 @@
         .replace(/^-+|-+$/g, "");
     }
 
+    function getTodayDateString() {
+      const today = new Date();
+      const year = today.getFullYear();
+      const month = String(today.getMonth() + 1).padStart(2, "0");
+      const day = String(today.getDate()).padStart(2, "0");
+
+      return `${year}-${month}-${day}`;
+    }
+
+    function isExternalUrl(value) {
+      return /^https?:\/\//i.test(value.trim());
+    }
+
     function cleanFileName(value) {
       return value
         .toString()
         .trim()
         .replace(/^\/+/, "")
+        .replace(/^assets\/docs\/rules\//, "")
         .replace(/^assets\/rules\//, "");
     }
 
@@ -558,30 +586,61 @@
       return form.elements[name] ? form.elements[name].value.trim() : "";
     }
 
+    function getDocumentPath(localFileNameOrUrl) {
+      if (isExternalUrl(localFileNameOrUrl)) {
+        return localFileNameOrUrl.trim();
+      }
+
+      const cleanName = cleanFileName(localFileNameOrUrl);
+
+      return `/assets/docs/rules/${cleanName}`;
+    }
+
+    function getOriginalFilename(localFileNameOrUrl) {
+      const providedOriginalFilename = getFormValue("originalFilename");
+
+      if (providedOriginalFilename) {
+        return providedOriginalFilename;
+      }
+
+      if (isExternalUrl(localFileNameOrUrl)) {
+        try {
+          const url = new URL(localFileNameOrUrl);
+          const parts = url.pathname.split("/").filter(Boolean);
+          return parts[parts.length - 1] || localFileNameOrUrl;
+        } catch (error) {
+          return localFileNameOrUrl;
+        }
+      }
+
+      return cleanFileName(localFileNameOrUrl);
+    }
+
     function getFormData() {
       const title = getFormValue("title");
       const description = getFormValue("description");
-      const localFileName = cleanFileName(getFormValue("localFileName"));
-      const originalFilename = getFormValue("originalFilename") || localFileName;
+      const localFileNameOrUrl = getFormValue("localFileName");
+      const documentPath = getDocumentPath(localFileNameOrUrl);
+      const originalFilename = getOriginalFilename(localFileNameOrUrl);
       const filename = getFormValue("filename");
       const status = getFormValue("status") || "PUBLISHED";
-
-      const localPath = `/assets/rules/${localFileName}`;
+      const dateAdded = getFormValue("dateAdded") || getTodayDateString();
 
       return {
-        id: createId(),
+        id: slugify(title) || createId(),
         title,
         description,
-        document: localPath,
+        document: documentPath,
         originalDocument: "",
         originalFilename,
-        futureLocalPath: localPath,
+        futureLocalPath: documentPath,
         sport: getCheckedValues("sport"),
         city: splitCommaValues(getFormValue("city")),
         demographic: splitCommaValues(getFormValue("demographic")),
         gender: getCheckedValues("gender"),
         filename,
-        status
+        status,
+        dateAdded
       };
     }
 
@@ -607,7 +666,8 @@
         ...record.city,
         ...record.demographic,
         ...record.gender,
-        record.status
+        record.status,
+        record.dateAdded
       ].filter(Boolean);
 
       metaItems.forEach((item) => {
@@ -626,6 +686,7 @@
         description: getFormValue("description"),
         localFileName: getFormValue("localFileName"),
         originalFilename: getFormValue("originalFilename"),
+        dateAdded: getFormValue("dateAdded"),
         city: getFormValue("city"),
         demographic: getFormValue("demographic"),
         filename: getFormValue("filename"),
@@ -640,7 +701,10 @@
     function loadDraft() {
       const saved = localStorage.getItem(STORAGE_KEY);
 
-      if (!saved) return;
+      if (!saved) {
+        form.elements.dateAdded.value = getTodayDateString();
+        return;
+      }
 
       try {
         const draft = JSON.parse(saved);
@@ -658,13 +722,19 @@
             form.elements[key].value = draft[key];
           }
         });
+
+        if (!form.elements.dateAdded.value) {
+          form.elements.dateAdded.value = getTodayDateString();
+        }
       } catch (error) {
         console.warn("Unable to load saved draft.", error);
+        form.elements.dateAdded.value = getTodayDateString();
       }
     }
 
     function clearForm() {
       form.reset();
+      form.elements.dateAdded.value = getTodayDateString();
       localStorage.removeItem(STORAGE_KEY);
       output.textContent = "Fill out the form and click Generate JSON.";
       previewCard.classList.remove("is-visible");

@@ -2,9 +2,8 @@ const rulesGroupedList = document.getElementById("rulesGroupedList");
 const rulesStatus = document.getElementById("rulesStatus");
 
 const SPORT_ORDER = [
-  
-"Tackle Football",
-"Flag Football",
+  "Tackle Football",
+  "Flag Football",
   "Volleyball",
   "Softball",
   "Baseball",
@@ -66,7 +65,28 @@ function groupRulebooksBySport(rulebooks) {
 
 function sortRulebooks(items) {
   return [...items].sort((a, b) => {
-    return String(a.title || "").localeCompare(String(b.title || ""));
+    const aDate = Date.parse(a.dateAdded || "");
+    const bDate = Date.parse(b.dateAdded || "");
+
+    // If both records have dateAdded, sort newest first
+    if (!Number.isNaN(aDate) && !Number.isNaN(bDate)) {
+      return bDate - aDate;
+    }
+
+    // If only one record has dateAdded, place it above older records
+    if (!Number.isNaN(aDate)) return -1;
+    if (!Number.isNaN(bDate)) return 1;
+
+    // If neither record has dateAdded, keep the original JSON order
+    const aIndex = Number.isInteger(a.__originalIndex)
+      ? a.__originalIndex
+      : 999999;
+
+    const bIndex = Number.isInteger(b.__originalIndex)
+      ? b.__originalIndex
+      : 999999;
+
+    return aIndex - bIndex;
   });
 }
 
@@ -74,6 +94,7 @@ function getSortedSports(groups) {
   const existingSports = [...groups.keys()];
 
   const orderedSports = SPORT_ORDER.filter((sport) => groups.has(sport));
+
   const remainingSports = existingSports
     .filter((sport) => !SPORT_ORDER.includes(sport))
     .sort();
@@ -164,7 +185,13 @@ async function loadRulebooks() {
     }
 
     const data = await response.json();
-    const rulebooks = Array.isArray(data) ? data : data.rulebooks || [];
+
+    const rulebooks = (Array.isArray(data) ? data : data.rulebooks || []).map(
+      (item, index) => ({
+        ...item,
+        __originalIndex: index
+      })
+    );
 
     renderGroupedRulebooks(rulebooks);
   } catch (error) {
@@ -172,6 +199,7 @@ async function loadRulebooks() {
 
     rulesStatus.textContent =
       "Unable to load rulebooks. Please check that /assets/data/rulebooks.json exists and is valid JSON.";
+
     rulesGroupedList.innerHTML = "";
   }
 }
