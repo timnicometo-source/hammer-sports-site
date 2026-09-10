@@ -1,5 +1,31 @@
 [
-  
+  {
+  "id": "city-of-bloomington-adult-kickball-league-rules",
+  "title": "City of Bloomington Adult Kickball League Rules",
+  "description": "",
+  "document": "/assets/docs/rules/2026-Bloomington-Kickball-Rules.pdf",
+  "originalDocument": "",
+  "originalFilename": "2026-Bloomington-Kickball-Rules.pdf",
+  "futureLocalPath": "/assets/docs/rules/2026-Bloomington-Kickball-Rules.pdf",
+  "sport": [
+    "Kickball"
+  ],
+  "city": [
+    "Bloomington"
+  ],
+  "demographic": [
+    "Adult"
+  ],
+  "gender": [
+    "Both",
+    "Co-Ed",
+    "Female",
+    "Male"
+  ],
+  "filename": "",
+  "status": "PUBLISHED",
+  "dateAdded": "2026-09-10"
+},
   {
   "id": "north-metro-junior-football-league-rules",
   "title": "North Metro Junior Football League Rules",
