@@ -1,5 +1,32 @@
 [
   {
+  "id": "2026-ANOKA-HENNEPIN-MIDDLE-SCHOOLS-Flag-Football",
+  "title": "2026-ANOKA-HENNEPIN-MIDDLE-SCHOOLS-Flag-Football Rules",
+  "description": "",
+  "document": "/assets/docs/rules/2026-ANOKA-HENNEPIN-MIDDLE-SCHOOLS-Flag-Football.pdf",
+  "originalDocument": "",
+  "originalFilename": "2026-ANOKA-HENNEPIN-MIDDLE-SCHOOLS-Flag-Football.pdf",
+  "futureLocalPath": "/assets/docs/rules/2026-ANOKA-HENNEPIN-MIDDLE-SCHOOLS-Flag-Football.pdf",
+  "sport": [
+    "Flag Football"
+  ],
+  "city": [
+    "Anoka",
+    "Hennepin"
+  ],
+  "demographic": [
+    "Middle School"
+  ],
+  "gender": [
+  
+    "Male"
+  ],
+  "filename": "",
+  "status": "PUBLISHED",
+  "dateAdded": "2026-09-10"
+},
+  
+  {
   "id": "city-of-bloomington-adult-kickball-league-rules",
   "title": "City of Bloomington Adult Kickball League Rules",
   "description": "",
