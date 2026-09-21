@@ -1,5 +1,30 @@
 [
   {
+    "id": "2026-ANOKA-HENNEPIN-MIDDLE-SCHOOLS-Flag-Football",
+    "title": "2026-ANOKA-HENNEPIN-MIDDLE-SCHOOLS-Flag-Football",
+    "description": "",
+    "document": "/assets/docs/rules/2026-ANOKA-HENNEPIN-MIDDLE-SCHOOLS-Flag-Football.pdf",
+    "originalDocument": "",
+    "originalFilename": "Flag Football Rules 2026.pdf",
+    "futureLocalPath": "/assets/rules/anoka-hennepin-middle-schools-flag-football-rules-2026.pdf",
+    "sport": [
+      "Flag Football"
+    ],
+    "city": [
+      "Anoka",
+      "Hennepin"
+    ],
+    "demographic": [
+      "Youth"
+    ],
+    "gender": [
+  
+    ],
+    "filename": "",
+    "status": "PUBLISHED"
+  },
+  
+  {
   "id": "city-of-bloomington-adult-kickball-league-rules",
   "title": "City of Bloomington Adult Kickball League Rules",
   "description": "",
@@ -982,31 +1007,7 @@
     "filename": "",
     "status": "PUBLISHED"
   },
-  {
-    "id": "f245d091-eb04-40f9-ab84-3d3c56bc6c34",
-    "title": "ANOKA HENNEPIN MIDDLE SCHOOLS Flag Football- Rules 2026",
-    "description": "",
-    "document": "https://static.wixstatic.com/ugd/fefb1d_e20d9e17329841d98a58be49435a4fb7.pdf",
-    "originalDocument": "wix:document://v1/ugd/fefb1d_e20d9e17329841d98a58be49435a4fb7.pdf/Flag%20Football%20Rules%202026.pdf",
-    "originalFilename": "Flag Football Rules 2026.pdf",
-    "futureLocalPath": "/assets/rules/anoka-hennepin-middle-schools-flag-football-rules-2026.pdf",
-    "sport": [
-      "Flag Football"
-    ],
-    "city": [
-      "Anoka",
-      "Hennepin"
-    ],
-    "demographic": [
-      "High School",
-      "Youth"
-    ],
-    "gender": [
-      "Female"
-    ],
-    "filename": "",
-    "status": "PUBLISHED"
-  },
+  
   {
     "id": "f9ff8763-f112-4cde-be28-66b8f493b99c",
     "title": "Northwest Metro League Rules",
