@@ -1,21 +1,20 @@
 [
-  {
+   {
   "id": "2026 MSHSL Football Officiating Training Tape #5",
   "title": "2026 MSHSL Football Officiating Training Tape #5",
     "description": "2026 MSHSL Football Officiating Training Tape #5",
-    "publishedDate": "2026-08-28",
+    "publishedDate": "2026-06-26",
     "category": ["Football", "MSHSL"],
     "series": ["MSHSL Football Officiating Training Tapes"],
     "thumbnail": "/assets/images/video-catalog/mshsl-training-tape-5-fb-26.png",
     "sourceType": "You Tube",
     "video": "https://youtu.be/jsJr4Y6ukr4"
-  }, 
-  
+  },
   {
   "id": "2026 MSHSL Football Officiating Training Tape #4",
   "title": "2026 MSHSL Football Officiating Training Tape #4",
     "description": "2026 MSHSL Football Officiating Training Tape #4",
-    "publishedDate": "2026-08-28",
+    "publishedDate": "2026-09-18",
     "category": ["Football", "MSHSL"],
     "series": ["MSHSL Football Officiating Training Tapes"],
     "thumbnail": "/assets/images/video-catalog/mshsl-training-tape-4-fb-26.png",
@@ -27,7 +26,7 @@
   "id": "2026 MSHSL Football Officiating Training Tape #3",
   "title": "2026 MSHSL Football Officiating Training Tape #3",
     "description": "2026 MSHSL Football Officiating Training Tape #3",
-    "publishedDate": "2026-08-28",
+    "publishedDate": "2026-09-10",
     "category": ["Football", "MSHSL"],
     "series": ["MSHSL Football Officiating Training Tapes"],
     "thumbnail": "/assets/images/video-catalog/mshsl-training-tape-3-fb-26.png",
@@ -39,15 +38,16 @@
   "id": "2026 MSHSL Football Officiating Training Tape #2",
   "title": "2026 MSHSL Football Officiating Training Tape #2",
     "description": "2026 MSHSL Football Officiating Training Tape #2",
-    "publishedDate": "2026-08-28",
+    "publishedDate": "2026-09-02",
     "category": ["Football", "MSHSL"],
     "series": ["MSHSL Football Officiating Training Tapes"],
     "thumbnail": "/assets/images/video-catalog/mshsl-training-tape-2-fb-26.png",
     "sourceType": "You Tube",
     "video": "https://www.youtube.com/watch?v=ky8FC0EU0Eg&t=1s"
   },
-  
-  {
+
+
+{
   "id": "74d0be9a-2c81-45f7-a3d6-9b1e5c7f8a26",
   "title": "2026 MSHSL Football Officiating Training Tape #1",
     "description": "2026 MSHSL Football Officiating Training Tape #1",
@@ -57,7 +57,7 @@
     "thumbnail": "/assets/images/video-catalog/mshsl-training-tape-1-fb-26.png",
     "sourceType": "You Tube",
     "video": "https://www.youtube.com/watch?v=4h8R14O6Dxc"
-  }, 
+  },  
   
   {
     "id": "74d0be9a-2c81-45f7-a3d6-9b1e5c7f8a23",
