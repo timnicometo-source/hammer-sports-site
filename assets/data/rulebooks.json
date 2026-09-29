@@ -1,5 +1,82 @@
 [
   {
+  "id": "brooklyn-center-recreation-men-s-volleyball-rules-2025-2026-pdf",
+  "title": "Brooklyn Center Recreation Mens Volleyball Rules 2025-2026.pdf",
+  "description": "",
+  "document": "/assets/docs/rules/Brooklyn-Center-Recreation-Mens-Volleyball-Rules-2025-2026.pdf",
+  "originalDocument": "",
+  "originalFilename": "Brooklyn-Center-Recreation-Mens-Volleyball-Rules-2025-2026.pdf",
+  "futureLocalPath": "/assets/docs/rules/Brooklyn-Center-Recreation-Men's-Volleyball-Rules-2025-2026.pdf",
+  "sport": [
+    "Volleyball"
+  ],
+  "city": [
+    "Brooklyn Center"
+  ],
+  "demographic": [
+    "Adult"
+  ],
+  "gender": [
+    "Male"
+  ],
+  "filename": "",
+  "status": "PUBLISHED",
+  "dateAdded": "2026-09-29"
+},
+  
+  {
+  "id": "brooklyn-center-recreation-2026-womens-volleyball-rules",
+  "title": "Brooklyn Center Recreation 2026 Womens Volleyball Rules",
+  "description": "",
+  "document": "/assets/docs/rules/Brooklyn-Center-Recreation-2026-Womens-Volleyball-Rules.pdf",
+  "originalDocument": "",
+  "originalFilename": "Brooklyn-Center-Recreation-2026-Womens-Volleyball-Rules.pdf",
+  "futureLocalPath": "/assets/docs/rules/Brooklyn-Center-Recreation-2026-Womens-Volleyball-Rules.pdf",
+  "sport": [
+    "Volleyball"
+  ],
+  "city": [
+    "Brooklyn Center"
+  ],
+  "demographic": [
+    "Adult"
+  ],
+  "gender": [
+    "Female"
+  ],
+  "filename": "",
+  "status": "PUBLISHED",
+  "dateAdded": "2026-09-29"
+  },
+  {
+  "id": "brooklyn-center-recreation-department-2026-co-rec-volleyball-league-rules",
+  "title": "Brooklyn Center Recreation Department 2026 Co-Rec Volleyball League Rules",
+  "description": "",
+  "document": "/assets/docs/rules/Brooklyn-Center-Recreation-Department-2026-Co-Rec-Volleyball-League-Rules.pdf",
+  "originalDocument": "",
+  "originalFilename": "Brooklyn-Center-Recreation-Department-2026-Co-Rec-Volleyball-League-Rules.pdf",
+  "futureLocalPath": "/assets/docs/rules/Brooklyn-Center-Recreation-Department-2026-Co-Rec-Volleyball-League-Rules.pdf",
+  "sport": [
+    "Volleyball"
+  ],
+  "city": [
+    "Brooklyn Center"
+  ],
+  "demographic": [
+    "Adult"
+  ],
+  "gender": [
+    "Both",
+    "Co-Ed",
+    "Female",
+    "Male"
+  ],
+  "filename": "",
+  "status": "PUBLISHED",
+  "dateAdded": "2026-09-29"
+},
+  
+  {
     "id": "2026-ANOKA-HENNEPIN-MIDDLE-SCHOOLS-Flag-Football",
     "title": "2026-ANOKA-HENNEPIN-MIDDLE-SCHOOLS-Flag-Football",
     "description": "",
@@ -382,29 +459,7 @@
     "filename": "",
     "status": "PUBLISHED"
   },
-  {
-    "id": "345827e4-6580-4b21-9a42-a6466f071cdd",
-    "title": "Brooklyn Center REC Women's VB Rules 2025 - 2026",
-    "description": "",
-    "document": "https://static.wixstatic.com/ugd/fefb1d_729287c6559f48edb3a6c52ffdda6b87.pdf",
-    "originalDocument": "wix:document://v1/ugd/fefb1d_729287c6559f48edb3a6c52ffdda6b87.pdf/Rules%20-%20Women.pdf",
-    "originalFilename": "Rules - Women.pdf",
-    "futureLocalPath": "/assets/rules/brooklyn-center-rec-women-s-vb-rules-2025-2026.pdf",
-    "sport": [
-      "Volleyball"
-    ],
-    "city": [
-      "Brooklyn Center"
-    ],
-    "demographic": [
-      "Adult"
-    ],
-    "gender": [
-      "Female"
-    ],
-    "filename": "",
-    "status": "PUBLISHED"
-  },
+  
   {
     "id": "3575926c-4e24-46ba-bc87-42d2435cc1fb",
     "title": "Wayzata SW House Basketball League Rules",
@@ -842,29 +897,7 @@
     "filename": "",
     "status": "PUBLISHED"
   },
-  {
-    "id": "c8244e3c-2046-40cb-980c-895b22a7768c",
-    "title": "Brooklyn Center Recreation 2026 Women's Volleyball Rules",
-    "description": "",
-    "document": "https://static.wixstatic.com/ugd/fefb1d_81b297195f044ec5895f86006d99865a.pdf",
-    "originalDocument": "wix:document://v1/ugd/fefb1d_81b297195f044ec5895f86006d99865a.pdf/Rules%20-%20Women%20Winter%202026.pdf",
-    "originalFilename": "Rules - Women Winter 2026.pdf",
-    "futureLocalPath": "/assets/rules/brooklyn-center-recreation-2026-women-s-volleyball-rules.pdf",
-    "sport": [
-      "Volleyball"
-    ],
-    "city": [
-      "Brooklyn Center"
-    ],
-    "demographic": [
-      "Adult"
-    ],
-    "gender": [
-      "Female"
-    ],
-    "filename": "",
-    "status": "PUBLISHED"
-  },
+  
   {
     "id": "c8b27496-29ca-4965-bf91-6c05ee73c637",
     "title": "NSBL Official Rules",
@@ -951,29 +984,6 @@
     ],
     "demographic": [
       "Youth"
-    ],
-    "gender": [
-      "Male"
-    ],
-    "filename": "",
-    "status": "PUBLISHED"
-  },
-  {
-    "id": "e2b7a2a5-6ff3-45c5-8b7a-ca4e626612ff",
-    "title": "Brooklyn Center REC Men's VB Rules 2025 - 2026",
-    "description": "",
-    "document": "https://static.wixstatic.com/ugd/fefb1d_e07132f2bff64087bc4f7b466c0f4e59.pdf",
-    "originalDocument": "wix:document://v1/ugd/fefb1d_e07132f2bff64087bc4f7b466c0f4e59.pdf/Rules%20-%20Mens%20Winter%202026.pdf",
-    "originalFilename": "Rules - Mens Winter 2026.pdf",
-    "futureLocalPath": "/assets/rules/brooklyn-center-rec-men-s-vb-rules-2025-2026.pdf",
-    "sport": [
-      "Volleyball"
-    ],
-    "city": [
-      "Brooklyn Center"
-    ],
-    "demographic": [
-      "Adult"
     ],
     "gender": [
       "Male"
