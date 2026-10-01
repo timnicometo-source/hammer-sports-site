@@ -1,5 +1,33 @@
 [
   {
+  "id": "2026-fall-sand-volleyball-league-rules",
+  "title": "2026 Fall Sand Volleyball League Rules",
+  "description": "",
+  "document": "/assets/docs/rules/2026-Fall-Sand-Volleyball-League-Rules.pdf",
+  "originalDocument": "",
+  "originalFilename": "2026-Fall-Sand-Volleyball-League-Rules.pdf",
+  "futureLocalPath": "/assets/docs/rules/2026-Fall-Sand-Volleyball-League-Rules.pdf",
+  "sport": [
+    "Volleyball"
+  ],
+  "city": [
+    "Golden Valley"
+  ],
+  "demographic": [
+    "Adult"
+  ],
+  "gender": [
+    "Both",
+    "Co-Ed",
+    "Female",
+    "Male"
+  ],
+  "filename": "",
+  "status": "PUBLISHED",
+  "dateAdded": "2026-10-01"
+},
+  
+  {
   "id": "brooklyn-center-recreation-men-s-volleyball-rules-2025-2026-pdf",
   "title": "Brooklyn Center Recreation Mens Volleyball Rules 2025-2026.pdf",
   "description": "",
