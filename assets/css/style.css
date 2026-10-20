@@ -245,12 +245,12 @@ select {
   align-items: center;
   gap: 5px;
   min-height: 42px;
-  padding: 0 26px;
+  padding: 0 16px;
   border: 0;
   border-right: 1px solid rgba(110, 75, 64, 0.35);
   background: transparent;
   color: var(--brown);
-  font-size: 0.98rem;
+  font-size: 0.94rem;
   text-decoration: none;
   cursor: pointer;
   white-space: nowrap;
@@ -950,6 +950,10 @@ select {
   background: var(--white);
   border: 1px solid rgba(110, 75, 64, 0.14);
   box-shadow: 0 14px 34px rgba(6, 40, 58, 0.07);
+}
+
+.rules-sport-section {
+  scroll-margin-top: 110px;
 }
 
 .rules-sport-heading {

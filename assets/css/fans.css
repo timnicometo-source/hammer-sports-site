@@ -1,0 +1,504 @@
+/* =========================================================
+   Hammer Sports Officials
+   Basketball Fan Guide
+   Requires the existing style.css
+   ========================================================= */
+
+.hammer-fans-page {
+  background: #ffffff;
+}
+
+.hammer-fans-page [id] {
+  scroll-margin-top: 120px;
+}
+
+.hammer-fans-page h2,
+.hammer-fans-page h3 {
+  color: var(--navy);
+}
+
+.hammer-fans-page h2 {
+  margin: 0 0 18px;
+  font-size: clamp(1.8rem, 3vw, 2.8rem);
+  line-height: 1.12;
+  letter-spacing: -0.04em;
+}
+
+.hammer-fans-page h3 {
+  margin: 0 0 12px;
+  font-size: 1.25rem;
+  line-height: 1.25;
+}
+
+.hammer-fans-page p {
+  line-height: 1.7;
+}
+
+.hammer-fans-page .eyebrow {
+  margin: 0 0 12px;
+}
+
+.hammer-fans-page .page-hero h1 {
+  max-width: 950px;
+}
+
+.hammer-fans-page .page-hero > .container > p:last-of-type {
+  max-width: 760px;
+  color: #e4ecf1;
+}
+
+.hammer-fans-page .fan-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 30px;
+}
+
+.hammer-fans-page .fan-outline-button {
+  color: #ffffff;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.hammer-fans-page .fan-outline-button:hover {
+  color: var(--navy);
+  background: #ffffff;
+  border-color: #ffffff;
+}
+
+/* Section navigation */
+
+.hammer-fans-page .fan-jump-nav {
+  padding: 17px 0;
+  background: #ffffff;
+  border-bottom: 1px solid var(--border);
+}
+
+.hammer-fans-page .fan-jump-nav .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 24px;
+}
+
+.hammer-fans-page .fan-jump-nav a {
+  padding: 5px 0;
+  color: var(--navy);
+  font-size: 0.94rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.hammer-fans-page .fan-jump-nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+/* Shared layout */
+
+.hammer-fans-page .fan-intro {
+  max-width: 850px;
+  margin-inline: auto;
+}
+
+.hammer-fans-page .fan-intro p:last-child {
+  margin-bottom: 0;
+}
+
+.hammer-fans-page .fan-muted-section {
+  background: #f6f7f8;
+  border-top: 1px solid #e1e5e8;
+  border-bottom: 1px solid #e1e5e8;
+}
+
+.hammer-fans-page .fan-grid {
+  display: grid;
+  gap: 24px;
+  align-items: stretch;
+}
+
+.hammer-fans-page .fan-grid-two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.hammer-fans-page .fan-grid-three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.hammer-fans-page .fan-card {
+  min-width: 0;
+  padding: 30px;
+  background: #ffffff;
+  border: 1px solid #dce2e6;
+  border-radius: var(--radius);
+  box-shadow: 0 10px 28px rgba(6, 40, 58, 0.05);
+}
+
+.hammer-fans-page .fan-card p {
+  margin: 0 0 16px;
+  color: var(--text);
+}
+
+.hammer-fans-page .fan-card p:last-child {
+  margin-bottom: 0;
+}
+
+.hammer-fans-page .fan-card h2 {
+  font-size: clamp(1.6rem, 2.4vw, 2.1rem);
+}
+
+.hammer-fans-page .fan-position-badge {
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 58px;
+  margin-bottom: 22px;
+  color: var(--navy);
+  background: #f9cb58;
+  border-radius: 16px;
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
+.hammer-fans-page .fan-card .fan-card-subtitle {
+  margin-top: -4px;
+  margin-bottom: 20px;
+  color: #55616b;
+  font-size: 0.95rem;
+}
+
+/* Coverage callouts */
+
+.hammer-fans-page .fan-callout {
+  margin-top: 28px;
+  padding: 28px 30px;
+  background: #fff8e5;
+  border: 1px solid #e9d497;
+  border-left: 5px solid #d9a224;
+  border-radius: 14px;
+}
+
+.hammer-fans-page .fan-callout p {
+  margin: 0 0 14px;
+}
+
+.hammer-fans-page .fan-callout p:last-child {
+  margin-bottom: 0;
+}
+
+.hammer-fans-page .fan-note {
+  max-width: 900px;
+  margin-top: 30px;
+}
+
+.hammer-fans-page .fan-note p {
+  margin-bottom: 0;
+}
+
+/* Signal cards */
+
+.hammer-fans-page .fan-signal-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.hammer-fans-page .fan-signal-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid #dce2e6;
+  border-radius: var(--radius);
+}
+
+.hammer-fans-page .fan-signal-image {
+  display: grid;
+  place-items: center;
+  height: 210px;
+  padding: 18px;
+  background: #ffffff;
+  border-bottom: 1px solid #edf0f2;
+}
+
+.hammer-fans-page .fan-signal-image img {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  object-fit: contain;
+}
+
+.hammer-fans-page .fan-signal-card figcaption {
+  flex: 1;
+  padding: 22px;
+}
+
+.hammer-fans-page .fan-signal-card h3 {
+  font-size: 1.08rem;
+}
+
+.hammer-fans-page .fan-signal-card p {
+  margin: 0;
+  font-size: 0.94rem;
+  line-height: 1.6;
+}
+
+/* Documents and action links */
+
+.hammer-fans-page .fan-document-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 26px;
+  margin-top: 30px;
+  padding: 28px 30px;
+  background: #ffffff;
+  border: 1px solid #dce2e6;
+  border-radius: var(--radius);
+}
+
+.hammer-fans-page .fan-document-card > div:first-child {
+  flex: 1;
+}
+
+.hammer-fans-page .fan-document-card h3 {
+  margin-bottom: 8px;
+}
+
+.hammer-fans-page .fan-document-card p {
+  margin: 0;
+}
+
+.hammer-fans-page .fan-document-card > .btn {
+  flex: 0 0 auto;
+}
+
+.hammer-fans-page .fan-button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.hammer-fans-page .btn {
+  text-align: center;
+}
+
+.hammer-fans-page .fan-text-link {
+  display: inline-block;
+  margin-top: 6px;
+  color: var(--navy);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.hammer-fans-page .fan-small-print {
+  max-width: 850px;
+  margin: 22px 0 0;
+  color: #555f68;
+  font-size: 0.92rem;
+}
+
+/* Common questions */
+
+.hammer-fans-page .fan-faq-list {
+  display: grid;
+  gap: 14px;
+}
+
+.hammer-fans-page .fan-faq {
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid #dce2e6;
+  border-radius: 14px;
+}
+
+.hammer-fans-page .fan-faq summary {
+  position: relative;
+  padding: 22px 60px 22px 24px;
+  color: var(--navy);
+  font-size: 1.06rem;
+  font-weight: 600;
+  line-height: 1.5;
+  cursor: pointer;
+  list-style: none;
+}
+
+.hammer-fans-page .fan-faq summary::-webkit-details-marker {
+  display: none;
+}
+
+.hammer-fans-page .fan-faq summary::after {
+  position: absolute;
+  top: 50%;
+  right: 24px;
+  content: "+";
+  transform: translateY(-50%);
+  color: var(--navy);
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.hammer-fans-page .fan-faq[open] summary::after {
+  content: "−";
+}
+
+.hammer-fans-page .fan-faq[open] summary {
+  background: #f4f7f9;
+  border-bottom: 1px solid #dce2e6;
+}
+
+.hammer-fans-page .fan-faq > div {
+  padding: 22px 24px;
+}
+
+.hammer-fans-page .fan-faq p {
+  max-width: 900px;
+  margin: 0;
+}
+
+/* Recruitment */
+
+.hammer-fans-page .fan-recruit-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #fff8e5;
+  border-color: #e9d497;
+}
+
+.hammer-fans-page .fan-recruit-card .btn {
+  margin-top: auto;
+}
+
+/* Keyboard access */
+
+.hammer-fans-page a:focus-visible,
+.hammer-fans-page summary:focus-visible {
+  outline: 3px solid #0b83bd;
+  outline-offset: 4px;
+}
+
+.hammer-fans-page .page-hero a:focus-visible {
+  outline-color: #ffd66b;
+}
+
+/* Tablet */
+
+@media (max-width: 1000px) {
+  .hammer-fans-page .fan-grid-three {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hammer-fans-page .fan-signal-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hammer-fans-page .fan-document-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 680px) {
+  .hammer-fans-page .content-section {
+    padding: 38px 0 44px;
+  }
+
+  .hammer-fans-page .page-hero {
+    padding-top: 130px;
+    padding-bottom: 54px;
+  }
+
+  .hammer-fans-page .fan-grid-two,
+  .hammer-fans-page .fan-grid-three {
+    grid-template-columns: 1fr;
+  }
+
+  .hammer-fans-page .fan-card,
+  .hammer-fans-page .fan-callout,
+  .hammer-fans-page .fan-document-card {
+    padding: 24px;
+  }
+
+  .hammer-fans-page .fan-jump-nav .container {
+    justify-content: flex-start;
+    gap: 8px 18px;
+  }
+
+  .hammer-fans-page .fan-jump-nav a {
+    font-size: 0.9rem;
+  }
+
+  .hammer-fans-page .fan-hero-actions,
+  .hammer-fans-page .fan-button-group {
+    width: 100%;
+  }
+
+  .hammer-fans-page .fan-hero-actions .btn,
+  .hammer-fans-page .fan-button-group .btn,
+  .hammer-fans-page .fan-document-card > .btn {
+    width: 100%;
+  }
+
+  .hammer-fans-page .fan-signal-grid {
+    gap: 14px;
+  }
+
+  .hammer-fans-page .fan-signal-image {
+    height: 175px;
+    padding: 12px;
+  }
+
+  .hammer-fans-page .fan-signal-card figcaption {
+    padding: 16px;
+  }
+
+  .hammer-fans-page .fan-faq summary {
+    padding-left: 20px;
+    font-size: 1rem;
+  }
+
+  .hammer-fans-page .fan-faq > div {
+    padding: 20px;
+  }
+}
+
+/* Recruitment QR code */
+
+.hammer-fans-page .fan-recruit-qr {
+  display: block;
+  align-self: center;
+  width: 180px;
+  max-width: 100%;
+  margin: 8px 0 12px;
+  background: #ffffff;
+}
+
+.hammer-fans-page .fan-recruit-qr img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hammer-fans-page .fan-recruit-card .fan-qr-caption {
+  align-self: center;
+  margin: 0 0 24px;
+  color: #555f68;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.hammer-fans-page .fan-recruit-card > .btn {
+  align-self: center;
+}
+@media (max-width: 380px) {
+  .hammer-fans-page .fan-signal-grid {
+    grid-template-columns: 1fr;
+  }
+}

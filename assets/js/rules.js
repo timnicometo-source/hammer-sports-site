@@ -35,6 +35,33 @@ function escapeHtml(value = "") {
     .replace(/'/g, "&#39;");
 }
 
+function getSportId(sport) {
+  return String(sport)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+function scrollToRequestedSport() {
+  if (!window.location.hash || !rulesGroupedList) return;
+
+  let sectionId;
+
+  try {
+    sectionId = decodeURIComponent(window.location.hash.slice(1));
+  } catch {
+    return;
+  }
+
+  const target = document.getElementById(sectionId);
+
+  if (target && rulesGroupedList.contains(target)) {
+    requestAnimationFrame(() => {
+      target.scrollIntoView({ block: "start" });
+    });
+  }
+}
+
 function isPublished(item) {
   const status = String(item.status || "").toLowerCase();
   return !status || status === "published";
@@ -68,16 +95,16 @@ function sortRulebooks(items) {
     const aDate = Date.parse(a.dateAdded || "");
     const bDate = Date.parse(b.dateAdded || "");
 
-    // If both records have dateAdded, sort newest first
+    // If both records have dates, sort newest first.
     if (!Number.isNaN(aDate) && !Number.isNaN(bDate)) {
       return bDate - aDate;
     }
 
-    // If only one record has dateAdded, place it above older records
+    // Place dated records above undated records.
     if (!Number.isNaN(aDate)) return -1;
     if (!Number.isNaN(bDate)) return 1;
 
-    // If neither record has dateAdded, keep the original JSON order
+    // Otherwise, preserve the original JSON order.
     const aIndex = Number.isInteger(a.__originalIndex)
       ? a.__originalIndex
       : 999999;
@@ -134,7 +161,11 @@ function createRulebookLink(item) {
       <a href="${escapeHtml(documentUrl)}" target="_blank" rel="noopener">
         ${title}
       </a>
-      ${tagLine ? `<span class="rulebook-tags">${escapeHtml(tagLine)}</span>` : ""}
+      ${
+        tagLine
+          ? `<span class="rulebook-tags">${escapeHtml(tagLine)}</span>`
+          : ""
+      }
     </li>
   `;
 }
@@ -143,6 +174,7 @@ function renderGroupedRulebooks(rulebooks) {
   const publishedRulebooks = rulebooks.filter(isPublished);
 
   if (!publishedRulebooks.length) {
+    rulesStatus.hidden = false;
     rulesStatus.textContent = "No rulebooks are currently available.";
     rulesGroupedList.innerHTML = "";
     return;
@@ -154,12 +186,19 @@ function renderGroupedRulebooks(rulebooks) {
   const html = sortedSports
     .map((sport) => {
       const items = sortRulebooks(groups.get(sport));
+      const sectionId = getSportId(sport);
 
       return `
-        <section class="rules-sport-section">
+        <section
+          id="${escapeHtml(sectionId)}"
+          class="rules-sport-section"
+        >
           <div class="rules-sport-heading">
             <h2>${escapeHtml(sport)}</h2>
-            <span>${items.length} ${items.length === 1 ? "resource" : "resources"}</span>
+            <span>
+              ${items.length}
+              ${items.length === 1 ? "resource" : "resources"}
+            </span>
           </div>
 
           <ul class="rulebook-link-list">
@@ -172,9 +211,14 @@ function renderGroupedRulebooks(rulebooks) {
 
   rulesStatus.hidden = true;
   rulesGroupedList.innerHTML = html;
+
+  // The requested section now exists, so it is safe to scroll.
+  scrollToRequestedSport();
 }
 
 async function loadRulebooks() {
+  if (!rulesGroupedList || !rulesStatus) return;
+
   try {
     const response = await fetch("/assets/data/rulebooks.json", {
       cache: "no-store"
@@ -185,18 +229,22 @@ async function loadRulebooks() {
     }
 
     const data = await response.json();
+    const records = Array.isArray(data) ? data : data?.rulebooks;
 
-    const rulebooks = (Array.isArray(data) ? data : data.rulebooks || []).map(
-      (item, index) => ({
-        ...item,
-        __originalIndex: index
-      })
-    );
+    if (!Array.isArray(records)) {
+      throw new Error("The rulebooks data must contain an array.");
+    }
+
+    const rulebooks = records.map((item, index) => ({
+      ...item,
+      __originalIndex: index
+    }));
 
     renderGroupedRulebooks(rulebooks);
   } catch (error) {
     console.error("Unable to load rulebooks:", error);
 
+    rulesStatus.hidden = false;
     rulesStatus.textContent =
       "Unable to load rulebooks. Please check that /assets/data/rulebooks.json exists and is valid JSON.";
 
@@ -204,4 +252,12 @@ async function loadRulebooks() {
   }
 }
 
-document.addEventListener("DOMContentLoaded", loadRulebooks);
+// Also handle changes to the requested sport while on this page.
+window.addEventListener("hashchange", scrollToRequestedSport);
+
+// Support scripts loaded either before or after DOMContentLoaded.
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", loadRulebooks);
+} else {
+  loadRulebooks();
+}
