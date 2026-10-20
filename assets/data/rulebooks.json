@@ -1,5 +1,30 @@
 [
   {
+  "id": "2026-2027-blaine-centennial-adult-basketball-league",
+  "title": "2026 - 2027 Blaine/Centennial Adult Basketball League",
+  "description": "",
+  "document": "/assets/docs/rules/2026-2027-Blaine-Centennial-Basketball-Rules.pdf",
+  "originalDocument": "",
+  "originalFilename": "2026-2027-Blaine-Centennial-Basketball-Rules.pdf",
+  "futureLocalPath": "/assets/docs/rules/2026-2027-Blaine-Centennial-Basketball-Rules.pdf",
+  "sport": [
+    "Basketball"
+  ],
+  "city": [
+    "Blaine"
+  ],
+  "demographic": [
+    "Adult"
+  ],
+  "gender": [
+    "Male"
+  ],
+  "filename": "",
+  "status": "PUBLISHED",
+  "dateAdded": "2026-10-19"
+},
+  
+  {
   "id": "2026-fall-sand-volleyball-league-rules",
   "title": "2026 Fall Sand Volleyball League Rules",
   "description": "",
