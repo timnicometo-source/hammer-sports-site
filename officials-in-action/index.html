@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Officials in Action | Hammer Sports Officials</title>
+  <meta name="description" content="Explore Hammer Sports Officials photos from the field, court, and game day.">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/icons/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/icons/favicon-16.png">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/icons/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#041f2b">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/officials-in-action.css">
+</head>
+<body>
+  <div id="site-header"></div>
+  <main class="inner-page officials-action-page">
+    <section class="page-hero" aria-labelledby="gallery-heading">
+      <div class="container">
+        <p class="eyebrow">The People Behind the Whistle</p>
+        <h1 id="gallery-heading">Officials in Action</h1>
+        <p>A look at the people who keep the games moving. Explore the moments, teamwork, and dedication behind every call.</p>
+      </div>
+    </section>
+
+    <section class="content-section" aria-label="Photo gallery">
+      <div class="container">
+        <div class="action-intro">
+          <div>
+            <p class="eyebrow">Game Day Gallery</p>
+            <h2>Every game has a story.</h2>
+            <p>Browse our collection of Hammer Sports officiating photos. Select any photo to see a larger view.</p>
+          </div>
+          <p class="action-counter" id="action-counter" aria-live="polite"></p>
+        </div>
+        <div class="action-filters" id="action-filters" role="group" aria-label="Filter gallery by sport"></div>
+        <div class="action-gallery" id="action-gallery" aria-live="polite"></div>
+        <p class="action-status" id="action-status" role="status">Loading photos…</p>
+      </div>
+    </section>
+
+    <section class="action-submit content-section section-muted">
+      <div class="container action-submit-inner">
+        <div>
+          <p class="eyebrow">Share a Moment</p>
+          <h2>Have a photo of officials in action?</h2>
+          <p>Contact Hammer Sports about sharing an officiating photo for a future gallery update.</p>
+        </div>
+        <a class="btn btn-primary" href="/contact/">Contact Hammer Sports</a>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <dialog class="action-lightbox" id="action-lightbox" aria-label="Enlarged photo">
+    <div class="action-lightbox-inner">
+      <button type="button" class="action-lightbox-close" id="action-close" aria-label="Close photo">&times;</button>
+      <button type="button" class="action-lightbox-step action-lightbox-prev" id="action-prev" aria-label="Previous photo">&#10094;</button>
+      <figure>
+        <img id="action-full-image" alt="">
+        <figcaption id="action-full-caption"></figcaption>
+      </figure>
+      <button type="button" class="action-lightbox-step action-lightbox-next" id="action-next" aria-label="Next photo">&#10095;</button>
+    </div>
+  </dialog>
+
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/officials-in-action.js" defer></script>
+</body>
+</html>

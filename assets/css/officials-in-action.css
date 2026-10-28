@@ -1,0 +1,41 @@
+/* Officials in Action — scoped styles */
+.officials-action-page { background: #f7f4ee; }
+.officials-action-page .page-hero { padding-bottom: 84px; }
+.action-intro { display:flex; justify-content:space-between; align-items:end; gap:24px; margin-bottom:25px; }
+.action-intro h2, .action-submit h2 { margin:0 0 10px; color:var(--navy); font-size:clamp(1.9rem,3vw,2.7rem); line-height:1.1; }
+.action-intro p:not(.eyebrow), .action-submit p:not(.eyebrow) { max-width:700px; margin:0; color:var(--muted); }
+.action-counter { white-space:nowrap; font-weight:800; color:var(--navy)!important; }
+.action-filters { display:flex; flex-wrap:wrap; gap:9px; margin:0 0 28px; }
+.action-filters[hidden] { display:none; }
+.action-filter { padding:10px 18px; border:1px solid #d6ccc0; border-radius:100px; background:#fff; color:var(--navy); font-weight:800; cursor:pointer; }
+.action-filter.is-active, .action-filter:hover { background:var(--navy); color:#fff; }
+.action-gallery { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:19px; }
+.action-photo { position:relative; padding:0; height:270px; border:0; border-radius:17px; overflow:hidden; background:#d9d5cf; cursor:zoom-in; box-shadow:0 12px 28px rgba(6,40,58,.1); text-align:left; }
+.action-photo img { width:100%; height:100%; object-fit:cover; transition:transform .3s ease; }
+.action-photo:hover img, .action-photo:focus-visible img { transform:scale(1.045); }
+.action-photo-label { position:absolute; bottom:0; inset-inline:0; padding:26px 16px 13px; color:#fff; font-weight:800; font-size:.92rem; background:linear-gradient(transparent,rgba(2,23,34,.82)); }
+.action-photo:focus-visible, .action-filter:focus-visible { outline:3px solid #f4b82f; outline-offset:3px; }
+.action-status { margin:22px 0 0; color:var(--muted); }
+.action-status:empty { display:none; }
+.action-submit-inner { display:flex; align-items:center; justify-content:space-between; gap:30px; }
+.action-submit .btn { flex-shrink:0; }
+.action-lightbox { position:fixed; inset:0; max-width:min(1100px,96vw); max-height:94vh; width:100%; padding:0; border:0; border-radius:16px; background:#071b26; color:#fff; box-shadow:0 22px 60px #0009; }
+.action-lightbox::backdrop { background:rgba(0,0,0,.86); }
+.action-lightbox-inner { position:relative; display:flex; align-items:center; justify-content:center; min-height:min(80vh,720px); padding:45px 64px 28px; }
+.action-lightbox figure { margin:0; max-width:100%; }
+.action-lightbox figure img { display:block; max-width:100%; max-height:72vh; width:auto; margin:auto; object-fit:contain; }
+.action-lightbox figcaption { margin-top:12px; color:#eee; text-align:center; font-size:.95rem; }
+.action-lightbox-close,.action-lightbox-step { position:absolute; z-index:2; display:grid; place-items:center; border:0; border-radius:50%; color:#fff; background:#ffffff32; cursor:pointer; }
+.action-lightbox-close { top:10px; right:12px; width:39px; height:39px; font-size:27px; }
+.action-lightbox-step { top:50%; width:40px; height:44px; transform:translateY(-50%); font-size:25px; }
+.action-lightbox-prev { left:12px; } .action-lightbox-next { right:12px; }
+@media (max-width:900px) { .action-gallery { grid-template-columns:repeat(2,minmax(0,1fr)); } .action-submit-inner { align-items:start; flex-direction:column; } }
+@media (max-width:620px) { .action-gallery { grid-template-columns:1fr; gap:15px; } .action-photo { height:275px; } .action-intro { display:block; } .action-counter { margin-top:12px!important; } .action-lightbox-inner { padding:55px 43px 24px; min-height:65vh; } .action-lightbox-step { width:32px; } }
+/* With one added top-level nav link, keep the existing desktop menu from overflowing. */
+@media (min-width:981px) { .nav-menu a,.dropdown-toggle { padding-inline:10px; font-size:.86rem; } }
+
+/* Photo labels are intentionally hidden; the image is the focus. */
+.action-photo-label { display:none; }
+.action-unavailable { position:absolute; inset:0; display:grid; place-items:center; padding:18px; font-weight:700; text-align:center; background:#e3ddd2; color:#253b48; }
+.action-photo-unavailable img { display:none; }
+.action-lightbox figcaption[hidden] { display:none; }
